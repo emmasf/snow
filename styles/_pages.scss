@@ -2,7 +2,7 @@
 
 
 #progress {
-  width:($screen-width)px;
+  width:$screen-width-px;
   height:6px;
   bottom:0;
 	background:#ffc400;
@@ -11,12 +11,13 @@
 
 	
 #cover {
+  top:0px;
   background-color: $page-color-light;  
   background-color: aqua; 
   } 
 
 #howto {
-	top:500px;
+	top:$screen-height-px;
   background-color: $page-color-dark;
   background-color: red; 
   
@@ -34,7 +35,7 @@
   width:334px;
   margin:50px;
   position: relative;
-  top:2000px;
+  top:$screen-height-px;
   z-index: 1000;
   
   p {color:$story-color;}
@@ -44,15 +45,14 @@
   } 
   
 #empty {;
-  top:1000px;
+  top:$screen-height-px;
   background-color: $page-color-light;    
   background-color: lime; 
   }
 
 
 #pageEnd {
-	height:$screen-height;
-	top:$screen-height;
+	top:$screen-height-px;
   background-color: $page-color-dark; 
   background-color: violet;  
   }

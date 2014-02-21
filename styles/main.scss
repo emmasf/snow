@@ -5,6 +5,9 @@
 $scroll_pause: 500;
 $padding_buffer: 100;
 
+$screen_height_notpx: 1024;
+$page_height_notpx: $screen_height_notpx;
+
 $progress_section_begin: 0;
 $progress_section_duration: 400;
 $progress_section_end: $progress_section_begin + $progress_section_duration;
@@ -14,32 +17,32 @@ $one_pause: $scroll_pause;
 $one_before: 0;
 $one_onscreen: 0;
 $one_scrollstart: $one_onscreen + $one_pause;
-$one_scrolloff: $one_scrollstart + $screen-height;
+$one_scrolloff: $one_scrollstart + $screen_height_notpx;
 $one_buffer: $one_onscreen + $padding_buffer;
 
 $two_pause: $scroll_pause;
 $two_before: $one_scrollstart;
 $two-onscreen: $one_scrolloff;
 $two_scrollstart: $two_onscreen + $two_pause;
-$two_scrolloff: $two_scrollstart + $screen-height;
+$two_scrolloff: $two_scrollstart + $screen_height_notpx;
 $two_buffer: $two_onscreen + $padding_buffer;
 
 $three_pause: $scroll_pause;
 $three_before: $two_scrollstart;
 $three-onscreen: $two_scrolloff;
 $three_scrollstart: $three_onscreen + $three_pause;
-$three_scrolloff: $three_scrollstart + $screen-height;
+$three_scrolloff: $three_scrollstart + $screen_height_notpx;
 $three_buffer: $three_onscreen + $padding_buffer;
 */
 
 $one_pause:             $scroll_pause;
-$one_height:            $page-height;
+$one_height:            $page_height_notpx;
 $two_pause:             $scroll_pause;
-$two_height:            $page-height;
+$two_height:            $page_height_notpx;
 $three_pause:           $scroll_pause;
-$three_height:          $page-height;
+$three_height:          $page_height_notpx;
 $last_pause:            $scroll_pause;
-$last_height:           $page-height;
+$last_height:           $page_height_notpx;
 
 
 $one_before:            0;
@@ -91,30 +94,30 @@ $last_scrollstart:      $last-onscreen + $last_pause;
 
   
 @-skrollr-keyframes last-scroll {    
-  #{$last_before} {top:$screen-height;}
+  #{$last_before} {top:$screen_height_px;}
   #{$last_onscreen} {top:0;}
   #{$last_scrollstart} {top:0;}
   }
   
 @-skrollr-keyframes three-scroll {    
-  #{$three_before} {top:$screen-height;}
+  #{$three_before} {top:$screen_height_px;}
   #{$three_onscreen} {top:0;}
   #{$three_scrollstart} {top:0;}
-  #{$three_scrolloff} {top:(-$screen-height);}
+  #{$three_scrolloff} {top:(-$screen_height_px);}
   }
   
 @-skrollr-keyframes two-scroll {    
-  #{$two_before} {top:$screen-height;}
+  #{$two_before} {top:$screen_height_notpx;}
   #{$two_onscreen} {top:0;}
   #{$two_scrollstart} {top:0;}
-  #{$two_scrolloff} {top:(-$screen-height);}
+  #{$two_scrolloff} {top:(-$screen_height_px);}
   }
   
 @-skrollr-keyframes one-scroll {    
-  #{$one_before} {top:$screen-height;}
+  #{$one_before} {top:$screen_height_notpx;}
   #{$one_onscreen} {top:0;}
   #{$one_scrollstart} {top:0;}
-  #{$one_scrolloff} {top:(-$screen-height);}
+  #{$one_scrolloff} {top:(-$screen_height_px);}
   }
   
   @-skrollr-keyframes sk-progress {    
