@@ -159,7 +159,7 @@ body {
   width:768px;
   height:6px;
   top:0;
-	background:#444;
+	background:white;
 	z-index:200;
   }
 
@@ -314,8 +314,8 @@ h4 {
     }
   
   @-skrollr-keyframes sk-progress {
-    0 { background:hsl(200, 100%, 50%);}
-    500 { background:hsl(920, 100%, 50%);}
+    0 { background:blue;}
+    500 { background:red;}
     }
 
 	
