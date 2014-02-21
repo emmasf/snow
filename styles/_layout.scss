@@ -1,8 +1,8 @@
 #progress {
   /*width: 6px;
-	height:1024px;
+	height:$page-height;
   right:0;*/
-  width:768px;
+  width:$screen-width;
   height:6px;
   top:0;
 	background:aqua;
@@ -46,8 +46,7 @@
 
 
 #pageEnd {
-  width:768px;
-	height:1024px;
-	top:1024px;
+	height:$screen-height;
+	top:$screen-height;
   background-color: $page-color-dark;  
   }

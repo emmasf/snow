@@ -14,14 +14,14 @@ html, body {
   }
   
 body {  
-  width:768px;
-  height: 1024px;
-  background-color: #fff;
+  width:$screen-width;
+  height: $screen-height;
+  background-color: pink;
   }
 
 .page {
-  width:768px;
-	height:1024px;
+  width:$screen-width;
+	height:$screen-height;
 	top:0px;
 	
   h1 {

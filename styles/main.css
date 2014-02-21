@@ -3,7 +3,7 @@
 /***********************************************************************************************************/
 html, body {
   width: 100%;
-  height: 100%;
+  /* height:100%; */
   padding: 0;
   margin: 0;
   overflow-x: hidden; }
@@ -52,7 +52,7 @@ html, body {
 body {
   width: 768px;
   height: 1024px;
-  background-color: #fff; }
+  background-color: pink; }
 
 .page {
   width: 768px;
@@ -120,7 +120,7 @@ body {
 
 #progress {
   /*width: 6px;
-	height:1024px;
+	height:$page-height;
   right:0;*/
   width: 768px;
   height: 6px;
@@ -154,7 +154,6 @@ body {
   background-color: rgba(0, 0, 0, 0.025); }
 
 #pageEnd {
-  width: 768px;
   height: 1024px;
   top: 1024px;
   background-color: rgba(0, 0, 0, 0.025); }
@@ -237,11 +236,67 @@ h4 {
 
 /*** End Type Styles ********************************************************/
 #progress {
-  -skrollr-animation-name: sk-progress-sass; }
+  -skrollr-animation-name: sk-progress; }
 
-@-skrollr-keyframes sk-progress-sass {
+#cover {
+  -skrollr-animation-name: one-scroll; }
+  #cover .front {
+    -skrollr-animation-name: one-front; }
+  #cover .cutout.back {
+    -skrollr-animation-name: one-cutout; }
+  #cover .svg-draw path {
+    -skrollr-animation-name: one-draw; }
+  #cover .button.closed {
+    -skrollr-animation-name: one-button; }
+  #cover .button p {
+    -skrollr-animation-name: one-button-p; }
+
+@-skrollr-keyframes sk-progress {
   0 {
     background: blue; }
 
   400 {
     background: pink; } }
+
+@-skrollr-keyframes one-scroll {
+  500 {
+    top: 0px; }
+
+  2000 {
+    top: -1024px; } }
+
+@-skrollr-keyframes one-front {
+  100 {
+    transform: rotate(0deg); }
+
+  500 {
+    transform: rotate(-90deg); } }
+
+@-skrollr-keyframes one-cutout {
+  100 {
+    top: 0px; }
+
+  500 {
+    top: -1024px; } }
+
+@-skrollr-keyframes one-draw {
+  100 {
+    stroke-dashoffset: 6000;
+    stroke: black; }
+
+  2000 {
+    stroke-dashoffset: 0; } }
+
+@-skrollr-keyframes one-button {
+  100 {
+    height: 0px; }
+
+  500 {
+    height: 90px; } }
+
+@-skrollr-keyframes one-button-p {
+  100 {
+    display: none; }
+
+  500 {
+    display: block; } }
