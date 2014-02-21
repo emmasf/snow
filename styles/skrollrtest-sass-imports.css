@@ -125,7 +125,7 @@ body {
   width: 768px;
   height: 6px;
   top: 0;
-  background: white;
+  background: #444;
   z-index: 200; }
 
 #cover {
@@ -244,4 +244,4 @@ h4 {
     background: blue; }
 
   400 {
-    background: red; } }
+    background: green; } }
