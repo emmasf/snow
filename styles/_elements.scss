@@ -1,13 +1,5 @@
-html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
-	margin: 0;
-	padding: 0;
-	border: 0;
-  }
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-  }
+@import "normalize";
+@import "variables";
 
 html, body {
   background-color: #000;
@@ -22,7 +14,8 @@ body {
 .page {
   width:$screen-width;
 	height:$screen-height;
-	top:0px;
+	height: 500px;
+	
 	
   h1 {
     top:100px;

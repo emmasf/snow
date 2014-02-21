@@ -1,22 +1,24 @@
+@import "elements";
+
+
 #progress {
-  /*width: 6px;
-	height:$page-height;
-  right:0;*/
   width:$screen-width;
   height:6px;
-  top:0;
-	background:aqua;
+  bottom:0;
+	background:#ffc400;
 	z-index:200;
   }
 
 	
 #cover {
   background-color: $page-color-light;  
+  background-color: aqua; 
   } 
 
 #howto {
 	top:500px;
   background-color: $page-color-dark;
+  background-color: red; 
   
   .factoid {
     width: 300px;
@@ -36,17 +38,21 @@
   z-index: 1000;
   
   p {color:$story-color;}
+
+  background-color: blue;   
   
   } 
   
 #empty {;
   top:1000px;
   background-color: $page-color-light;    
+  background-color: lime; 
   }
 
 
 #pageEnd {
 	height:$screen-height;
 	top:$screen-height;
-  background-color: $page-color-dark;  
+  background-color: $page-color-dark; 
+  background-color: violet;  
   }
