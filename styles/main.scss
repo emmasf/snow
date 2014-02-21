@@ -3,3 +3,34 @@
 @import "elements";
 @import "layout";
 @import "type";
+
+$progress_section_begin: 0;
+$progress_section_duration: 400;
+$progress_section_end: $progress_section_begin + $progress_section_duration;
+
+
+#progress {
+    -skrollr-animation-name:sk-progress-sass;  
+    }
+
+@-skrollr-keyframes sk-progress-sass {    
+  #{$progress_section_begin} {
+    background:blue;
+    }
+  #{$progress_section_end} {
+    background:green;
+    }
+  }
+
+	
+#cover {}
+
+#story {}  
+
+#howto {}
+  
+#empty {}
+
+#pageEnd {}
+
+  

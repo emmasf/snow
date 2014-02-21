@@ -1,8 +1,0 @@
-#progress {
-  -skrollr-animation-name: sk-progress;  
-  }
-  
-  @-skrollr-keyframes sk-progress {
-    start { width:0%;background:hsl(200, 100%, 50%);}
-    end { width:100%;background:hsl(920, 100%, 50%);}
-    }
