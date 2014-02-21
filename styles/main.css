@@ -129,7 +129,7 @@ body {
   z-index: 200; }
 
 #cover {
-  background-color: #fafafa; }
+  background-color: #ebebeb; }
 
 #story {
   width: 334px;
@@ -151,12 +151,12 @@ body {
 
 #empty {
   top: 1000px;
-  background-color: #fafafa; }
+  background-color: #ebebeb; }
 
 #pageEnd {
   height: 1024px;
   top: 1024px;
-  background-color: #fafafa; }
+  background-color: #ebebeb; }
 
 /***********************************************************************************************************/
 /*** Begin Type Styles  ************************************************************************************/
@@ -251,26 +251,26 @@ h4 {
   #cover .button p {
     -skrollr-animation-name: one-button-p; }
 
-#story {
+#howto {
   -skrollr-animation-name: two-scroll; }
-  #story .front {
+  #howto .front {
     -skrollr-animation-name: two-title; }
 
 @-skrollr-keyframes two-scroll {
-  1500 {
+  2500 {
     top: 1024px; }
 
   1000 {
     top: 0; }
 
-  2000 {
+  3000 {
     top: -1024px; } }
 
 @-skrollr-keyframes two-front {
   1000 {
     transform: rotate(0deg); }
 
-  2000 {
+  3000 {
     transform: rotate(30deg); } }
 
 @-skrollr-keyframes one-scroll {

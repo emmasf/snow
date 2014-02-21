@@ -129,7 +129,7 @@ body {
   z-index: 200; }
 
 #cover {
-  background-color: #fafafa; }
+  background-color: #ebebeb; }
 
 #story {
   width: 334px;
@@ -151,12 +151,12 @@ body {
 
 #empty {
   top: 1000px;
-  background-color: #fafafa; }
+  background-color: #ebebeb; }
 
 #pageEnd {
   height: 1024px;
   top: 1024px;
-  background-color: #fafafa; }
+  background-color: #ebebeb; }
 
 /***********************************************************************************************************/
 /*** Begin Type Styles  ************************************************************************************/
