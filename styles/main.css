@@ -471,12 +471,14 @@ body {
   height: 1024px;
   background-color: pink; }
 
+h1 {
+  top: 25px;
+  color: black; }
+
 .page {
   width: 768px;
   height: 1024px; }
   .page h1 {
-    top: 100px;
-    padding: 50px;
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
@@ -613,8 +615,7 @@ q {
 
 h1 {
   font-size: 6em;
-  margin: 0;
-  top: 0px; }
+  margin: 0; }
 
 h1 > small {
   text-align: right;
@@ -698,44 +699,32 @@ $three_buffer: $three_onscreen + $padding_buffer;
     -skrollr-animation-name: last-bottom-to-top; }
 
 @-skrollr-keyframes last-bottom-to-top {
-  0 {
-    top: 800px; }
-
   4572 {
-    top: 800px; }
+    color: black; }
 
   5072 {
-    top: 25px; } }
+    color: white; } }
 
 @-skrollr-keyframes three-bottom-to-top {
-  0 {
-    top: 800px; }
-
   3048 {
-    top: 800px; }
+    color: black; }
 
   3548 {
-    top: 25px; } }
+    color: white; } }
 
 @-skrollr-keyframes two-bottom-to-top {
-  0 {
-    top: 800px; }
-
   1524 {
-    top: 800px; }
+    color: black; }
 
   2024 {
-    top: 25px; } }
+    color: white; } }
 
 @-skrollr-keyframes one-bottom-to-top {
   0 {
-    top: 800px; }
-
-  0 {
-    top: 800px; }
+    color: black; }
 
   500 {
-    top: 25px; } }
+    color: white; } }
 
 @-skrollr-keyframes last-scroll {
   3548 {

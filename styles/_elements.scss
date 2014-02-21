@@ -11,14 +11,18 @@ body {
   background-color: pink;
   }
 
-.page {
+h1 {
+	top:25px;
+	color:rgba(0,0,0,1);
+  }
+  
+  
+  .page {
   width:$screen-width-px;
 	height:$page-height-px;
 	
 	
   h1 {
-    top:100px;
-    padding:50px;
   	-webkit-transform-origin:0 0;
   	-moz-transform-origin:0 0;
   	-ms-transform-origin:0 0;
