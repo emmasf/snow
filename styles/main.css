@@ -304,11 +304,19 @@ h4 {
   2024px {
     transform: rotate(10deg); } }
 
+/*
+@-skrollr-keyframes one-scroll {    
+  500 {
+    top:0px;}
+  1524px {
+    top:(- $screen-height);}
+  }
+*/
 @-skrollr-keyframes one-scroll {
   500 {
     top: 0px; }
 
-  1524px {
+  1524 {
     top: -1024px; } }
 
 @-skrollr-keyframes one-front {

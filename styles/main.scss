@@ -102,12 +102,24 @@ $three_buffer: $three_onscreen + $padding_buffer;
     transform:rotate(10deg);}
   }
   
+/*
 @-skrollr-keyframes one-scroll {    
   #{$one_scrollstart} {
     top:0px;}
   #{$one_scrolloff} {
     top:(- $screen-height);}
   }
+*/
+
+
+
+@-skrollr-keyframes one-scroll {    
+  #{$one_scrollstart} {
+    top:0px;}
+  1524 {
+    top:(- $screen-height);}
+  }
+
   
 @-skrollr-keyframes one-front {    
   #{$one_buffer} {
