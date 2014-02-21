@@ -14,7 +14,7 @@ $progress_section_end: $progress_section_begin + $progress_section_duration;
 $one_duration: $page_duration;
 $one_before: 0;
 $one_onscreen: 0;
-$one_scrollstart: $one_before + $one_duration;
+$one_scrollstart: $one_onscreen + $one_duration;
 $one_scrolloff: $one_scrollstart + $screen-height;
 $one_buffer: $one_onscreen + $padding_buffer;
 
@@ -25,20 +25,25 @@ $two_scrollstart: $two_onscreen + $two_duration;
 $two_scrolloff: $two_scrollstart + $screen-height;
 $two_buffer: $two_onscreen + $padding_buffer;
 
+$three_duration: $page_duration;
+$three_before: $two_scrollstart;
+$three-onscreen: $two_scrolloff;
+$three_scrollstart: $three_onscreen + $three_duration;
+$three_scrolloff: $three_scrollstart + $screen-height;
+$three_buffer: $three_onscreen + $padding_buffer;
+
 #progress {
   -skrollr-animation-name:sk-progress;  
   }
     
 #cover {
-  -skrollr-animation-name:one-scroll;  
-  
+  -skrollr-animation-name:one-scroll;    
   .front {-skrollr-animation-name:one-front;}    
   .cutout.back {-skrollr-animation-name:one-cutout;}    
   .svg-draw path {-skrollr-animation-name:one-draw;}
   .button > .closed {-skrollr-animation-name:one-button;}    
   .button p {-skrollr-animation-name:one-button-p;}
-  }
-    
+  }    
 
 #howto {
   -skrollr-animation-name:two-scroll;  
@@ -47,12 +52,39 @@ $two_buffer: $two_onscreen + $padding_buffer;
 
 #story {}
   
-#empty {}
+#empty {
+  -skrollr-animation-name:three-scroll;  
+  .front {-skrollr-animation-name:three-front;}    
+  .cutout.back {-skrollr-animation-name:three-cutout;} 
+  }
+  
 
 #pageEnd {}
 
 
-@-skrollr-keyframes two-scroll {    
+@-skrollr-keyframes three-scroll {    
+  #{$three_scrollstart} {
+    top:0px;}
+  #{$three_scrolloff} {
+    top:(- $screen-height);}
+  }
+  
+@-skrollr-keyframes three-front {    
+  #{$one_before} {
+    top:50px; }
+  #{$one_onscreen} {
+    top:200px;}
+  }
+  
+@-skrollr-keyframes three-cutout {    
+  #{$one_buffer} {
+    top:0px;}
+  #{$one_scrollstart} {
+    top:(- $screen-height);}
+  }
+  
+  
+  @-skrollr-keyframes two-scroll {    
   #{$two_before} {
     top:$screen-height;}
   #{$two_onscreen} {

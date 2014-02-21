@@ -256,6 +256,34 @@ h4 {
   #howto .front {
     -skrollr-animation-name: two-title; }
 
+#empty {
+  -skrollr-animation-name: three-scroll; }
+  #empty .front {
+    -skrollr-animation-name: three-front; }
+  #empty .cutout.back {
+    -skrollr-animation-name: three-cutout; }
+
+@-skrollr-keyframes three-scroll {
+  3548px {
+    top: 0px; }
+
+  4572px {
+    top: -1024px; } }
+
+@-skrollr-keyframes three-front {
+  0 {
+    top: 50px; }
+
+  0 {
+    top: 200px; } }
+
+@-skrollr-keyframes three-cutout {
+  100 {
+    top: 0px; }
+
+  500 {
+    top: -1024px; } }
+
 @-skrollr-keyframes two-scroll {
   500 {
     top: 1024px; }
