@@ -8,7 +8,6 @@ $progress_section_begin: 0;
 $progress_section_duration: 400;
 $progress_section_end: $progress_section_begin + $progress_section_duration;
 
-
 #progress {
     -skrollr-animation-name:sk-progress-sass;  
     }
