@@ -84,30 +84,30 @@ $last_scrollstart:      5072;
   }
   
 @-skrollr-keyframes last-scroll {    
-  #{$last_before} {top:$screen_height_px;}
-  #{$last_onscreen} {top:0;}
-  #{$last_scrollstart} {top:0;}
+  #{$last_before} {top:1024px}
+  #{$last_onscreen} {top:0px;}
+  #{$last_scrollstart} {top:0px;}
   }
   
 @-skrollr-keyframes three-scroll {    
-  #{$three_before} {top:$screen_height_px;}
-  #{$three_onscreen} {top:0;}
-  #{$three_scrollstart} {top:0;}
-  #{$three_scrolloff} {top:(-$screen_height_px);}
+  #{$three_before} {top:1024px}
+  #{$three_onscreen} {top:0px;}
+  #{$three_scrollstart} {top:0px;}
+  #{$three_scrolloff} {top:-1024px;}
   }
   
 @-skrollr-keyframes two-scroll {    
-  #{$two_before} {top:$screen_height_notpx;}
-  #{$two_onscreen} {top:0;}
-  #{$two_scrollstart} {top:0;}
-  #{$two_scrolloff} {top:(-$screen_height_px);}
+  #{$two_before} {top:1024px;}
+  #{$two_onscreen} {top:0px;}
+  #{$two_scrollstart} {top:0px;}
+  #{$two_scrolloff} {top:-1024px;}
   }
   
 @-skrollr-keyframes one-scroll {    
-  #{$one_before} {top:$screen_height_notpx;}
-  #{$one_onscreen} {top:0;}
-  #{$one_scrollstart} {top:0;}
-  #{$one_scrolloff} {top:(-$screen_height_px);}
+  #{$one_before} {top:1024px;}
+  #{$one_onscreen} {top:0px;}
+  #{$one_scrollstart} {top:0px;}
+  #{$one_scrolloff} {top:-1024px;}
   }
   
   @-skrollr-keyframes sk-progress {    
