@@ -12,62 +12,28 @@ $progress_section_begin: 0;
 $progress_section_duration: 400;
 $progress_section_end: $progress_section_begin + $progress_section_duration;
 
-/*
-$one_pause: $scroll_pause;
-$one_before: 0;
-$one_onscreen: 0;
-$one_scrollstart: $one_onscreen + $one_pause;
-$one_scrolloff: $one_scrollstart + $screen_height_notpx;
-$one_buffer: $one_onscreen + $padding_buffer;
-
-$two_pause: $scroll_pause;
-$two_before: $one_scrollstart;
-$two-onscreen: $one_scrolloff;
-$two_scrollstart: $two_onscreen + $two_pause;
-$two_scrolloff: $two_scrollstart + $screen_height_notpx;
-$two_buffer: $two_onscreen + $padding_buffer;
-
-$three_pause: $scroll_pause;
-$three_before: $two_scrollstart;
-$three-onscreen: $two_scrolloff;
-$three_scrollstart: $three_onscreen + $three_pause;
-$three_scrolloff: $three_scrollstart + $screen_height_notpx;
-$three_buffer: $three_onscreen + $padding_buffer;
-*/
-
-$one_pause:             $scroll_pause;
-$one_height:            $page_height_notpx;
-$two_pause:             $scroll_pause;
-$two_height:            $page_height_notpx;
-$three_pause:           $scroll_pause;
-$three_height:          $page_height_notpx;
-$last_pause:            $scroll_pause;
-$last_height:           $page_height_notpx;
-
-
 $one_before:            0;
 $one_onscreen:          0;
-$one_buffer:            $padding_buffer;
-$one_scrollstart:       $one_onscreen + $one_pause;
-$one_scrolloff:         $one_scrollstart + $one_height;
+$one_buffer:            100;
+$one_scrollstart:       500;
+$one_scrolloff:         1524;
 
-$two_before:            $one_scrollstart;
-$two-onscreen:          $two_before + $two_height;
-$two_buffer:            $two_onscreen + $padding_buffer;
-$two_scrollstart:       $two-onscreen + $two_pause;
-$two_scrolloff:         $two_scrollstart + $two-height;
+$two_before:            500;
+$two-onscreen:          1524;
+$two_buffer:            1624;
+$two_scrollstart:       2024;
+$two_scrolloff:         3048;
 
-$three_before:          $two_scrollstart;
-$three-onscreen:        $three_before + $three_height;
-$three_buffer:          $three_onscreen + $padding_buffer;
-$three_scrollstart:     $three-onscreen + $three_pause;
-$three_scrolloff:       $three_scrollstart + $three-height;
+$three_before:          2024;
+$three-onscreen:        3048;
+$three_buffer:          3148;
+$three_scrollstart:     3548;
+$three_scrolloff:       4572;
 
-$last_before:           $three_scrollstart;
-$last-onscreen:         $last_before + $last_height;
-$last_buffer:           $last_onscreen + $padding_buffer;
-$last_scrollstart:      $last-onscreen + $last_pause;
-
+$last_before:           3548;
+$last-onscreen:         4572;
+$last_buffer:           4672;
+$last_scrollstart:      5072;
 
 
 #progress {
