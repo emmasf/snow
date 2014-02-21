@@ -545,7 +545,7 @@ h1 {
   z-index: 200; }
 
 #cover {
-  top: 0px;
+  margin-top: 0px;
   background-color: white;
   background-color: aqua; }
 
@@ -563,19 +563,19 @@ h1 {
   width: 334px;
   margin: 50px;
   position: relative;
-  top: 1024px;
+  margin-top: 1024px;
   z-index: 1000;
   background-color: blue; }
   #story p {
     color: rgba(0, 0, 0, 0.75); }
 
 #empty {
-  top: 1024px;
+  margin-top: 1024px;
   background-color: white;
   background-color: lime; }
 
 #pageEnd {
-  top: 1024px;
+  margin-top: 1024px;
   background-color: #ebebeb;
   background-color: violet; }
 
@@ -707,52 +707,52 @@ h4 {
 
 @-skrollr-keyframes last-scroll {
   3548 {
-    top: 1024px; }
+    margin-top: 1024px; }
 
   4572 {
-    top: 0px; }
+    margin-top: 0px; }
 
   5072 {
-    top: 0px; } }
+    margin-top: 0px; } }
 
 @-skrollr-keyframes three-scroll {
   2024 {
-    top: 1024px; }
+    margin-top: 1024px; }
 
   3048 {
-    top: 0px; }
+    margin-top: 0px; }
 
   3548 {
-    top: 0px; }
+    margin-top: 0px; }
 
   4572 {
-    top: -1024px; } }
+    margin-top: -1024px; } }
 
 @-skrollr-keyframes two-scroll {
   500 {
-    top: 1024px; }
+    margin-top: 1024px; }
 
   1524 {
-    top: 0px; }
+    margin-top: 0px; }
 
   2024 {
-    top: 0px; }
+    margin-top: 0px; }
 
   3048 {
-    top: -1024px; } }
+    margin-top: -1024px; } }
 
 @-skrollr-keyframes one-scroll {
   0 {
-    top: 1024px; }
+    margin-top: 1024px; }
 
   0 {
-    top: 0px; }
+    margin-top: 0px; }
 
   500 {
-    top: 0px; }
+    margin-top: 0px; }
 
   1524 {
-    top: -1024px; } }
+    margin-top: -1024px; } }
 
 @-skrollr-keyframes sk-progress {
   0 {

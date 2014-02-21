@@ -11,7 +11,7 @@
 
 	
 #cover {
-  top:0px;
+  margin-top:0px;
   background-color: $page-color-light;  
   background-color: aqua; 
   } 
@@ -35,7 +35,7 @@
   width:334px;
   margin:50px;
   position: relative;
-  top:$screen-height-px;
+  margin-top:$screen-height-px;
   z-index: 1000;
   
   p {color:$story-color;}
@@ -45,14 +45,14 @@
   } 
   
 #empty {;
-  top:$screen-height-px;
+  margin-top:$screen-height-px;
   background-color: $page-color-light;    
   background-color: lime; 
   }
 
 
 #pageEnd {
-	top:$screen-height-px;
+	margin-top:$screen-height-px;
   background-color: $page-color-dark; 
   background-color: violet;  
   }
