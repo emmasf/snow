@@ -1,4 +1,3 @@
-@import "variables";
 @import "fixed-positioning";
 @import "elements";
 @import "layout";
@@ -44,3 +43,5 @@ $progress_section_end: $progress_section_begin + $progress_section_duration;
 #pageEnd {
 
   }
+  
+.page

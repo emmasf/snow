@@ -118,6 +118,9 @@ body {
 .front {
   z-index: 50 !important; }
 
+.totaltop {
+  z-index: 5000 !important; }
+
 #progress {
   /*width: 6px;
 	height:$page-height;

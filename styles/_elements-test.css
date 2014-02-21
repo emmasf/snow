@@ -1,0 +1,83 @@
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+html, body {
+  background-color: #000; }
+
+body {
+  width: 768px;
+  height: 1024px;
+  background-color: pink; }
+
+.page {
+  width: 768px;
+  height: 1024px;
+  height: 500; }
+  .page h1 {
+    top: 100px;
+    padding: 50px;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0; }
+  .page h2 {
+    padding: 50px;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0; }
+
+.button .closed {
+  background-color: #2494d1;
+  width: 33.333%;
+  height: 90px;
+  left: 33.333%;
+  top: 450px; }
+
+.svg-draw {
+  fill: none;
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: 6000;
+  stroke-dashoffset: 0; }
+
+.factoid {
+  background-color: rgba(231, 41, 0, 0.75);
+  padding: 15px; }
+  .factoid p {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, serif; }
+
+.hidden p {
+  display: none; }
+
+.revealed p {
+  display: block; }
+
+.cutout {
+  position: relative;
+  top: 0px; }
+
+.back {
+  z-index: 1 !important; }
+
+.middle {
+  z-index: 25 !important; }
+
+.front {
+  z-index: 50 !important; }
+
+.totaltop {
+  z-index: 5000 !important; }
