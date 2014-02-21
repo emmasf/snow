@@ -1,4 +1,4 @@
 snow
 ====
 
-Live PhoneGap site
+Playing with skrollr + sass variables
