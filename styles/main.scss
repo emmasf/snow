@@ -42,8 +42,7 @@ $two_scrolloff: $two_scrollstart + $two_duration;
     
 
 #howto {
-  -skrollr-animation-name:two-scroll;
-  
+  -skrollr-animation-name:two-scroll;  
   .front{-skrollr-animation-name:two-title}  
   }  
 

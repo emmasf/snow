@@ -129,7 +129,16 @@ body {
   z-index: 200; }
 
 #cover {
+  background-color: white; }
+
+#howto {
+  top: 500px;
   background-color: #ebebeb; }
+  #howto .factoid {
+    width: 300px;
+    position: absolute;
+    top: 400px;
+    right: 0; }
 
 #story {
   width: 334px;
@@ -140,18 +149,9 @@ body {
   #story p {
     color: rgba(0, 0, 0, 0.75); }
 
-#howto {
-  top: 500px;
-  background-color: white; }
-  #howto .factoid {
-    width: 300px;
-    position: absolute;
-    top: 400px;
-    right: 0; }
-
 #empty {
   top: 1000px;
-  background-color: #ebebeb; }
+  background-color: white; }
 
 #pageEnd {
   height: 1024px;

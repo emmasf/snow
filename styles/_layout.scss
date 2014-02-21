@@ -11,23 +11,12 @@
 
 	
 #cover {
-  background-color: $page-color-dark;  
-  }
-
-#story {
-  width:334px;
-  margin:50px;
-  position: relative;
-  top:2000px;
-  z-index: 1000;
-  
-  p {color:$story-color;}
-  
-  }  
+  background-color: $page-color-light;  
+  } 
 
 #howto {
 	top:500px;
-  background-color: $page-color-light;
+  background-color: $page-color-dark;
   
   .factoid {
     width: 300px;
@@ -38,9 +27,21 @@
       
   }
   
+
+#story {
+  width:334px;
+  margin:50px;
+  position: relative;
+  top:2000px;
+  z-index: 1000;
+  
+  p {color:$story-color;}
+  
+  } 
+  
 #empty {;
   top:1000px;
-  background-color: $page-color-dark;    
+  background-color: $page-color-light;    
   }
 
 
