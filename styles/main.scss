@@ -54,9 +54,11 @@ $two_scrolloff: $two_scrollstart + $two_duration;
 
 
 @-skrollr-keyframes two-scroll {    
-  #{$two_scrollstart} {
+  #{$two_before} {
     top:$screen-height;}
   #{$two_onscreen} {
+    top:0;}
+  #{$two_scrollstart} {
     top:0;}
   #{$two_scrolloff} {
     top:(- $screen-height);}
@@ -65,8 +67,8 @@ $two_scrolloff: $two_scrollstart + $two_duration;
 @-skrollr-keyframes two-front {    
   #{$two_onscreen} {
     transform:rotate(0deg);}
-  #{$two_scrolloff} {
-    transform:rotate(30deg);}
+  #{$two_scrollstart} {
+    transform:rotate(10deg);}
   }
   
 @-skrollr-keyframes one-scroll {    
