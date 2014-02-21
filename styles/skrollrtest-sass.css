@@ -238,6 +238,12 @@ h4 {
 #progress {
   -skrollr-animation-name: sk-progress-sass; }
 
+/*
+@-skrollr-keyframes sk-progress {
+  0 { background:blue;}
+  500 { background:red;}
+  }
+*/
 @-skrollr-keyframes sk-progress-sass {
   0 {
     background: blue; }

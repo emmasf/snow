@@ -11,6 +11,13 @@ $progress_section_end: $progress_section_begin + $progress_section_duration;
 #progress {
     -skrollr-animation-name:sk-progress-sass;  
     }
+  
+/*
+@-skrollr-keyframes sk-progress {
+  0 { background:blue;}
+  500 { background:red;}
+  }
+*/
 
 @-skrollr-keyframes sk-progress-sass {    
   #{$progress_section_begin} {
