@@ -613,7 +613,8 @@ q {
 
 h1 {
   font-size: 6em;
-  margin: 0; }
+  margin: 0;
+  top: 0px; }
 
 h1 > small {
   text-align: right;
@@ -678,15 +679,51 @@ $three_buffer: $three_onscreen + $padding_buffer;
 
 #cover {
   -skrollr-animation-name: one-scroll; }
+  #cover h1 {
+    -skrollr-animation-name: one-bottom-to-top; }
 
 #howto {
   -skrollr-animation-name: two-scroll; }
+  #howto h1 {
+    -skrollr-animation-name: two-bottom-to-top; }
 
 #empty {
   -skrollr-animation-name: three-scroll; }
+  #empty h1 {
+    -skrollr-animation-name: three-bottom-to-top; }
 
 #pageEnd {
   -skrollr-animation-name: last-scroll; }
+  #pageEnd h1 {
+    -skrollr-animation-name: last-bottom-to-top; }
+
+@-skrollr-keyframes last-bottom-to-top {
+  4572 {
+    top: 1000px; }
+
+  5072 {
+    top: 25px; } }
+
+@-skrollr-keyframes three-bottom-to-top {
+  3048 {
+    top: 1000px; }
+
+  3548 {
+    top: 25px; } }
+
+@-skrollr-keyframes two-bottom-to-top {
+  1524 {
+    top: 1000px; }
+
+  2024 {
+    top: 25px; } }
+
+@-skrollr-keyframes one-bottom-to-top {
+  0 {
+    top: 1000px; }
+
+  500 {
+    top: 25px; } }
 
 @-skrollr-keyframes last-scroll {
   3548 {

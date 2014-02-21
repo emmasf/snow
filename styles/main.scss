@@ -75,23 +75,47 @@ $last_scrollstart:      $last-onscreen + $last_pause;
   }
     
 #cover {
-  -skrollr-animation-name:one-scroll;    
+  -skrollr-animation-name:one-scroll; 
+  h1 {-skrollr-animation-name:one-bottom-to-top;}    
   }    
 
 #howto {
-  -skrollr-animation-name:two-scroll;   
+  -skrollr-animation-name:two-scroll;
+  h1 {-skrollr-animation-name:two-bottom-to-top;}   
   }  
 
 #story {}
   
 #empty {
   -skrollr-animation-name:three-scroll;  
+  h1 {-skrollr-animation-name:three-bottom-to-top;} 
   }  
 
 #pageEnd {  
-  -skrollr-animation-name:last-scroll;  
+  -skrollr-animation-name:last-scroll; 
+  h1 {-skrollr-animation-name:last-bottom-to-top;}  
   }
 
+  
+@-skrollr-keyframes last-bottom-to-top {    
+  #{$last_onscreen} {top:1000px;}
+  #{$last_scrollstart} {top:25px;}
+  }
+  
+@-skrollr-keyframes three-bottom-to-top {    
+  #{$three_onscreen} {top:1000px;}
+  #{$three_scrollstart} {top:25px;}
+  }
+  
+@-skrollr-keyframes two-bottom-to-top {    
+  #{$two_onscreen} {top:1000px;}
+  #{$two_scrollstart} {top:25px;}
+  }
+  
+@-skrollr-keyframes one-bottom-to-top {    
+  #{$one_onscreen} {top:1000px;}
+  #{$one_scrollstart} {top:25px;}
+  }
   
 @-skrollr-keyframes last-scroll {    
   #{$last_before} {top:$screen_height_px;}
