@@ -18,6 +18,7 @@
 	<div id="cover" class="page"></div>
 	<div id="howto" class="page"></div>
 	<div id="empty" class="page"></div>
+	<div id="pageEnd" class="page"></div>
 	
 <!- Begin Javascript -------------------------------------------->
     
@@ -38,15 +39,15 @@ document.getElementById('factoid01').onclick = function() {
 <script type="text/javascript" src="scripts/skrollr.min.js"></script>
 <!--[if lt IE 9]><script type="text/javascript" src="scripts/skrollr.ie.min.js"></script><![endif]-->
 <script type="text/javascript">
-var s = skrollr.init({
-	edgeStrategy: 'set',
-	easing: {
-		WTF: Math.random,
-		inverted: function(p) {
-			return 1-p;
-		}
-	}
-});
+  var s = skrollr.init({
+  	edgeStrategy: 'set',
+  	easing: {
+  		WTF: Math.random,
+  		inverted: function(p) {
+  			return 1-p;
+      }
+  	}
+  });
 </script>
 
 <!-- LiveReload -->

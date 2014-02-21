@@ -6,15 +6,14 @@ html, body {
   }
   
 body {  
-  width:$screen-width;
-  height: $screen-height;
+  width:($screen-width)px;
+  height:($screen-height)px;
   background-color: pink;
   }
 
 .page {
-  width:$screen-width;
-	height:$screen-height;
-	height: 500px;
+  width:($screen-width)px;
+	height:($page-height)px;
 	
 	
   h1 {

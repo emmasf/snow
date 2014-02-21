@@ -467,14 +467,13 @@ html, body {
   background-color: #000; }
 
 body {
-  width: 768px;
-  height: 1024px;
+  width: 768 px;
+  height: 1024 px;
   background-color: pink; }
 
 .page {
-  width: 768px;
-  height: 1024px;
-  height: 500px; }
+  width: 768 px;
+  height: 1024 px; }
   .page h1 {
     top: 100px;
     padding: 50px;
@@ -536,7 +535,7 @@ body {
   z-index: 50 !important; }
 
 #progress {
-  width: 768px;
+  width: 768 px;
   height: 6px;
   bottom: 0;
   background: #ffc400;
@@ -572,8 +571,8 @@ body {
   background-color: lime; }
 
 #pageEnd {
-  height: 1024px;
-  top: 1024px;
+  height: 1024;
+  top: 1024;
   background-color: #ebebeb;
   background-color: violet; }
 
@@ -652,125 +651,91 @@ h4 {
   font-weight: bold; }
 
 /*** End Type Styles ********************************************************/
+/*
+$one_pause: $scroll_pause;
+$one_before: 0;
+$one_onscreen: 0;
+$one_scrollstart: $one_onscreen + $one_pause;
+$one_scrolloff: $one_scrollstart + $screen-height;
+$one_buffer: $one_onscreen + $padding_buffer;
+
+$two_pause: $scroll_pause;
+$two_before: $one_scrollstart;
+$two-onscreen: $one_scrolloff;
+$two_scrollstart: $two_onscreen + $two_pause;
+$two_scrolloff: $two_scrollstart + $screen-height;
+$two_buffer: $two_onscreen + $padding_buffer;
+
+$three_pause: $scroll_pause;
+$three_before: $two_scrollstart;
+$three-onscreen: $two_scrolloff;
+$three_scrollstart: $three_onscreen + $three_pause;
+$three_scrolloff: $three_scrollstart + $screen-height;
+$three_buffer: $three_onscreen + $padding_buffer;
+*/
 #progress {
   -skrollr-animation-name: sk-progress; }
 
 #cover {
   -skrollr-animation-name: one-scroll; }
-  #cover .front {
-    -skrollr-animation-name: one-front; }
-  #cover .cutout.back {
-    -skrollr-animation-name: one-cutout; }
-  #cover .svg-draw path {
-    -skrollr-animation-name: one-draw; }
-  #cover .button > .closed {
-    -skrollr-animation-name: one-button; }
-  #cover .button p {
-    -skrollr-animation-name: one-button-p; }
 
 #howto {
   -skrollr-animation-name: two-scroll; }
-  #howto .front {
-    -skrollr-animation-name: two-title; }
 
 #empty {
   -skrollr-animation-name: three-scroll; }
-  #empty .front {
-    -skrollr-animation-name: three-front; }
-  #empty .cutout.back {
-    -skrollr-animation-name: three-cutout; }
+
+#pageEnd {
+  -skrollr-animation-name: last-scroll; }
+
+@-skrollr-keyframes last-scroll {
+  3548 {
+    top: 1024; }
+
+  4572 {
+    top: 0; }
+
+  5072 {
+    top: 0; } }
 
 @-skrollr-keyframes three-scroll {
-  3548px {
-    top: 0px; }
+  2024 {
+    top: 1024; }
 
-  4572px {
-    top: -1024px; } }
+  3048 {
+    top: 0; }
 
-@-skrollr-keyframes three-front {
-  0 {
-    top: 50px; }
+  3548 {
+    top: 0; }
 
-  0 {
-    top: 200px; } }
-
-@-skrollr-keyframes three-cutout {
-  100 {
-    top: 0px; }
-
-  500 {
-    top: -1024px; } }
+  4572 {
+    top: -1024; } }
 
 @-skrollr-keyframes two-scroll {
   500 {
-    top: 1024px; }
-
-  1524px {
-    top: 0; }
-
-  2024px {
-    top: 0; }
-
-  3048px {
-    top: -1024px; } }
-
-@-skrollr-keyframes two-front {
-  1524px {
-    transform: rotate(0deg); }
-
-  2024px {
-    transform: rotate(10deg); } }
-
-/*
-@-skrollr-keyframes one-scroll {    
-  500 {
-    top:0px;}
-  1524px {
-    top:(- $screen-height);}
-  }
-*/
-@-skrollr-keyframes one-scroll {
-  500 {
-    top: 0px; }
+    top: 1024; }
 
   1524 {
-    top: -1024px; } }
+    top: 0; }
 
-@-skrollr-keyframes one-front {
-  100 {
-    transform: rotate(0deg); }
+  2024 {
+    top: 0; }
 
-  500 {
-    transform: rotate(-90deg); } }
+  3048 {
+    top: -1024; } }
 
-@-skrollr-keyframes one-cutout {
-  100 {
-    top: 0px; }
+@-skrollr-keyframes one-scroll {
+  0 {
+    top: 1024; }
 
-  500 {
-    top: -1024px; } }
-
-@-skrollr-keyframes one-draw {
-  100 {
-    stroke-dashoffset: 6000;
-    stroke: black; }
-
-  1524px {
-    stroke-dashoffset: 0; } }
-
-@-skrollr-keyframes one-button {
-  100 {
-    height: 0px; }
+  0 {
+    top: 0; }
 
   500 {
-    height: 90px; } }
+    top: 0; }
 
-@-skrollr-keyframes one-button-p {
-  100 {
-    display: none; }
-
-  500 {
-    display: block; } }
+  1524 {
+    top: -1024; } }
 
 @-skrollr-keyframes sk-progress {
   0 {

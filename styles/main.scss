@@ -2,33 +2,70 @@
 @import "pages";
 @import "type";
 
-$page_duration: 500;
+$scroll_pause: 500;
 $padding_buffer: 100;
 
 $progress_section_begin: 0;
 $progress_section_duration: 400;
 $progress_section_end: $progress_section_begin + $progress_section_duration;
 
-$one_duration: $page_duration;
+/*
+$one_pause: $scroll_pause;
 $one_before: 0;
 $one_onscreen: 0;
-$one_scrollstart: $one_onscreen + $one_duration;
+$one_scrollstart: $one_onscreen + $one_pause;
 $one_scrolloff: $one_scrollstart + $screen-height;
 $one_buffer: $one_onscreen + $padding_buffer;
 
-$two_duration: $page_duration;
+$two_pause: $scroll_pause;
 $two_before: $one_scrollstart;
 $two-onscreen: $one_scrolloff;
-$two_scrollstart: $two_onscreen + $two_duration;
+$two_scrollstart: $two_onscreen + $two_pause;
 $two_scrolloff: $two_scrollstart + $screen-height;
 $two_buffer: $two_onscreen + $padding_buffer;
 
-$three_duration: $page_duration;
+$three_pause: $scroll_pause;
 $three_before: $two_scrollstart;
 $three-onscreen: $two_scrolloff;
-$three_scrollstart: $three_onscreen + $three_duration;
+$three_scrollstart: $three_onscreen + $three_pause;
 $three_scrolloff: $three_scrollstart + $screen-height;
 $three_buffer: $three_onscreen + $padding_buffer;
+*/
+
+$one_pause:             $scroll_pause;
+$one_height:            $page-height;
+$two_pause:             $scroll_pause;
+$two_height:            $page-height;
+$three_pause:           $scroll_pause;
+$three_height:          $page-height;
+$last_pause:            $scroll_pause;
+$last_height:           $page-height;
+
+
+$one_before:            0;
+$one_onscreen:          0;
+$one_buffer:            $padding_buffer;
+$one_scrollstart:       $one_onscreen + $one_pause;
+$one_scrolloff:         $one_scrollstart + $one_height;
+
+$two_before:            $one_scrollstart;
+$two-onscreen:          $two_before + $two_height;
+$two_buffer:            $two_onscreen + $padding_buffer;
+$two_scrollstart:       $two-onscreen + $two_pause;
+$two_scrolloff:         $two_scrollstart + $two-height;
+
+$three_before:          $two_scrollstart;
+$three-onscreen:        $three_before + $three_height;
+$three_buffer:          $three_onscreen + $padding_buffer;
+$three_scrollstart:     $three-onscreen + $three_pause;
+$three_scrolloff:       $three_scrollstart + $three-height;
+
+$last_before:           $three_scrollstart;
+$last-onscreen:         $last_before + $last_height;
+$last_buffer:           $last_onscreen + $padding_buffer;
+$last_scrollstart:      $last-onscreen + $last_pause;
+
+
 
 #progress {
   -skrollr-animation-name:sk-progress;  
@@ -36,130 +73,51 @@ $three_buffer: $three_onscreen + $padding_buffer;
     
 #cover {
   -skrollr-animation-name:one-scroll;    
-  .front {-skrollr-animation-name:one-front;}    
-  .cutout.back {-skrollr-animation-name:one-cutout;}    
-  .svg-draw path {-skrollr-animation-name:one-draw;}
-  .button > .closed {-skrollr-animation-name:one-button;}    
-  .button p {-skrollr-animation-name:one-button-p;}
   }    
 
 #howto {
-  -skrollr-animation-name:two-scroll;  
-  .front{-skrollr-animation-name:two-title}  
+  -skrollr-animation-name:two-scroll;   
   }  
 
 #story {}
   
 #empty {
   -skrollr-animation-name:three-scroll;  
-  .front {-skrollr-animation-name:three-front;}    
-  .cutout.back {-skrollr-animation-name:three-cutout;} 
+  }  
+
+#pageEnd {  
+  -skrollr-animation-name:last-scroll;  
+  }
+
+  
+@-skrollr-keyframes last-scroll {    
+  #{$last_before} {top:$screen-height;}
+  #{$last_onscreen} {top:0;}
+  #{$last_scrollstart} {top:0;}
   }
   
-
-#pageEnd {}
-
-
 @-skrollr-keyframes three-scroll {    
-  #{$three_scrollstart} {
-    top:0px;}
-  #{$three_scrolloff} {
-    top:(- $screen-height);}
+  #{$three_before} {top:$screen-height;}
+  #{$three_onscreen} {top:0;}
+  #{$three_scrollstart} {top:0;}
+  #{$three_scrolloff} {top:(-$screen-height);}
   }
   
-@-skrollr-keyframes three-front {    
-  #{$one_before} {
-    top:50px; }
-  #{$one_onscreen} {
-    top:200px;}
+@-skrollr-keyframes two-scroll {    
+  #{$two_before} {top:$screen-height;}
+  #{$two_onscreen} {top:0;}
+  #{$two_scrollstart} {top:0;}
+  #{$two_scrolloff} {top:(-$screen-height);}
   }
   
-@-skrollr-keyframes three-cutout {    
-  #{$one_buffer} {
-    top:0px;}
-  #{$one_scrollstart} {
-    top:(- $screen-height);}
-  }
-  
-  
-  @-skrollr-keyframes two-scroll {    
-  #{$two_before} {
-    top:$screen-height;}
-  #{$two_onscreen} {
-    top:0;}
-  #{$two_scrollstart} {
-    top:0;}
-  #{$two_scrolloff} {
-    top:(- $screen-height);}
-  }
-  
-@-skrollr-keyframes two-front {    
-  #{$two_onscreen} {
-    transform:rotate(0deg);}
-  #{$two_scrollstart} {
-    transform:rotate(10deg);}
-  }
-  
-/*
 @-skrollr-keyframes one-scroll {    
-  #{$one_scrollstart} {
-    top:0px;}
-  #{$one_scrolloff} {
-    top:(- $screen-height);}
-  }
-*/
-
-
-
-@-skrollr-keyframes one-scroll {    
-  #{$one_scrollstart} {
-    top:0px;}
-  1524 {
-    top:(- $screen-height);}
-  }
-
-  
-@-skrollr-keyframes one-front {    
-  #{$one_buffer} {
-    transform:rotate(0deg); }
-  #{$one_scrollstart} {
-    transform:rotate(-90deg);}
+  #{$one_before} {top:$screen-height;}
+  #{$one_onscreen} {top:0;}
+  #{$one_scrollstart} {top:0;}
+  #{$one_scrolloff} {top:(-$screen-height);}
   }
   
-@-skrollr-keyframes one-cutout {    
-  #{$one_buffer} {
-    top:0px;}
-  #{$one_scrollstart} {
-    top:(- $screen-height);}
-  }
-  
-@-skrollr-keyframes one-draw {    
-  #{$one_buffer} {
-    stroke-dashoffset:6000;
-    stroke:black;}
-  #{$one_scrolloff} {
-    stroke-dashoffset:0;}
-  }
-  
-@-skrollr-keyframes one-button {    
-  #{$one_buffer} {
-    height:0px;
-    }
-  #{$one_scrollstart} {
-    height:90px;
-    }
-  } 
-  
-@-skrollr-keyframes one-button-p {    
-  #{$one_buffer} {
-    display:none;
-    }
-  #{$one_scrollstart} {
-    display:block;
-    }
-  }
-  
-@-skrollr-keyframes sk-progress {    
+  @-skrollr-keyframes sk-progress {    
   #{$progress_section_begin} {
     background:blue;}
   #{$progress_section_end} {
