@@ -125,7 +125,7 @@ body {
   width: 768px;
   height: 6px;
   top: 0;
-  background: aqua;
+  background: white;
   z-index: 200; }
 
 #cover {
@@ -239,9 +239,15 @@ h4 {
 #progress {
   -skrollr-animation-name: sk-progress-sass; }
 
+/*
+@-skrollr-keyframes sk-progress {
+  0 { background:blue;}
+  500 { background:red;}
+  }
+*/
 @-skrollr-keyframes sk-progress-sass {
   0 {
     background: blue; }
 
   400 {
-    background: pink; } }
+    background: red; } }
