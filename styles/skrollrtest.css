@@ -241,9 +241,7 @@ h4 {
 
 @-skrollr-keyframes sk-progress {
   0 {
-    width: 0%;
     background: #00aaff; }
 
   500 {
-    width: 100%;
     background: #00aaff; } }
