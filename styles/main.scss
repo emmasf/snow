@@ -98,22 +98,26 @@ $last_scrollstart:      $last-onscreen + $last_pause;
 
   
 @-skrollr-keyframes last-bottom-to-top {    
-  #{$last_onscreen} {top:1000px;}
+  0 {top:800px;}
+  #{$last_onscreen} {top:800px;}
   #{$last_scrollstart} {top:25px;}
   }
   
-@-skrollr-keyframes three-bottom-to-top {    
-  #{$three_onscreen} {top:1000px;}
+@-skrollr-keyframes three-bottom-to-top {  
+  0 {top:800px;}  
+  #{$three_onscreen} {top:800px;}
   #{$three_scrollstart} {top:25px;}
   }
   
-@-skrollr-keyframes two-bottom-to-top {    
-  #{$two_onscreen} {top:1000px;}
+@-skrollr-keyframes two-bottom-to-top { 
+  0 {top:800px;}   
+  #{$two_onscreen} {top:800px;}
   #{$two_scrollstart} {top:25px;}
   }
   
-@-skrollr-keyframes one-bottom-to-top {    
-  #{$one_onscreen} {top:1000px;}
+@-skrollr-keyframes one-bottom-to-top { 
+  0 {top:800px;}   
+  #{$one_onscreen} {top:800px;}
   #{$one_scrollstart} {top:25px;}
   }
   

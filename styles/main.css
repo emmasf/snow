@@ -698,29 +698,41 @@ $three_buffer: $three_onscreen + $padding_buffer;
     -skrollr-animation-name: last-bottom-to-top; }
 
 @-skrollr-keyframes last-bottom-to-top {
+  0 {
+    top: 800px; }
+
   4572 {
-    top: 1000px; }
+    top: 800px; }
 
   5072 {
     top: 25px; } }
 
 @-skrollr-keyframes three-bottom-to-top {
+  0 {
+    top: 800px; }
+
   3048 {
-    top: 1000px; }
+    top: 800px; }
 
   3548 {
     top: 25px; } }
 
 @-skrollr-keyframes two-bottom-to-top {
+  0 {
+    top: 800px; }
+
   1524 {
-    top: 1000px; }
+    top: 800px; }
 
   2024 {
     top: 25px; } }
 
 @-skrollr-keyframes one-bottom-to-top {
   0 {
-    top: 1000px; }
+    top: 800px; }
+
+  0 {
+    top: 800px; }
 
   500 {
     top: 25px; } }
