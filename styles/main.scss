@@ -11,32 +11,40 @@ $progress_section_begin: 0;
 $progress_section_duration: 400;
 $progress_section_end: $progress_section_begin + $progress_section_duration;
 
-$one_before: 0;
-$one_buffer: $one_before + $buffer;
 $one_duration: $page_duration;
-$one_begin: $one_before + $one_duration;
-$one_end: $one_begin + $one_duration;
+$one_before: 0;
+$one_onscreen: 0;
+$one_buffer: $one-onscreen + $buffer;
+$one_scrollstart: $one_before + $one_duration;
+$one_scrolloff: $one_scrollstart + $one_duration;
 
-$two_before: $one_end;
 $two_duration: $page_duration;
-$two_begin: $two_before + $two_duration;
-$one_end: $two_begin + $two_duration;
+$two_before: $one-scrollstart;
+$two-onscreen: $one_scrolloff;
+$two_buffer: $two-onscreen + $buffer;
+$two_scrollstart: $two_onscreen + $two_duration;
+$two_scrolloff: $two_scrollstart + $two_duration;
 
 #progress {
-    -skrollr-animation-name:sk-progress;  
-    }
+  -skrollr-animation-name:sk-progress;  
+  }
     
 #cover {
-    -skrollr-animation-name:one-scroll;  
+  -skrollr-animation-name:one-scroll;  
+  
+  .front {-skrollr-animation-name:one-front;}    
+  .cutout.back {-skrollr-animation-name:one-cutout;}    
+  .svg-draw path {-skrollr-animation-name:one-draw;}
+  .button > .closed {-skrollr-animation-name:one-button;}    
+  .button p {-skrollr-animation-name:one-button-p;}
+  }
     
-    .front {-skrollr-animation-name:one-front;}    
-    .cutout.back {-skrollr-animation-name:one-cutout;}    
-    .svg-draw path {-skrollr-animation-name:one-draw;}
-    .button.closed {-skrollr-animation-name:one-button;}    
-    .button p {-skrollr-animation-name:one-button-p;}
-    }
 
-#story {}  
+#story {
+  -skrollr-animation-name:two-scroll;
+  
+  .front{-skrollr-animation-name:two-title}  
+  }  
 
 #howto {}
   
@@ -44,31 +52,41 @@ $one_end: $two_begin + $two_duration;
 
 #pageEnd {}
 
-@-skrollr-keyframes sk-progress {    
-  #{$progress_section_begin} {
-    background:blue;}
-  #{$progress_section_end} {
-    background:pink;}
+
+@-skrollr-keyframes two-scroll {    
+  #{$two_scrollstart} {
+    top:$screen-height;}
+  #{$two_onscreen} {
+    top:0;}
+  #{$two_scrolloff} {
+    top:(- $screen-height);}
+  }
+  
+@-skrollr-keyframes two-front {    
+  #{$two_onscreen} {
+    transform:rotate(0deg);}
+  #{$two_scrolloff} {
+    transform:rotate(30deg);}
   }
   
 @-skrollr-keyframes one-scroll {    
-  #{$one_begin} {
+  #{$one_scrollstart} {
     top:0px;}
-  #{$one_end} {
+  #{$one_scrolloff} {
     top:(- $screen-height);}
   }
   
 @-skrollr-keyframes one-front {    
   #{$one_buffer} {
     transform:rotate(0deg); }
-  #{$one_begin} {
+  #{$one_scrollstart} {
     transform:rotate(-90deg);}
   }
   
 @-skrollr-keyframes one-cutout {    
   #{$one_buffer} {
     top:0px;}
-  #{$one_begin} {
+  #{$one_scrollstart} {
     top:(- $screen-height);}
   }
   
@@ -76,7 +94,7 @@ $one_end: $two_begin + $two_duration;
   #{$one_buffer} {
     stroke-dashoffset:6000;
     stroke:black;}
-  #{$one_end} {
+  #{$one_scrolloff} {
     stroke-dashoffset:0;}
   }
   
@@ -84,19 +102,27 @@ $one_end: $two_begin + $two_duration;
   #{$one_buffer} {
     height:0px;
     }
-  #{$one_begin} {
+  #{$one_scrollstart} {
     height:90px;
     }
-  }
-  
+  } 
   
 @-skrollr-keyframes one-button-p {    
   #{$one_buffer} {
     display:none;
     }
-  #{$one_begin} {
+  #{$one_scrollstart} {
     display:block;
     }
   }
+  
+@-skrollr-keyframes sk-progress {    
+  #{$progress_section_begin} {
+    background:blue;}
+  #{$progress_section_end} {
+    background:pink;}
+  }
+  
+  
 
   

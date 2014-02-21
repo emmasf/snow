@@ -129,7 +129,7 @@ body {
   z-index: 200; }
 
 #cover {
-  background-color: rgba(0, 0, 0, 0.025); }
+  background-color: #fafafa; }
 
 #story {
   width: 334px;
@@ -151,12 +151,12 @@ body {
 
 #empty {
   top: 1000px;
-  background-color: rgba(0, 0, 0, 0.025); }
+  background-color: #fafafa; }
 
 #pageEnd {
   height: 1024px;
   top: 1024px;
-  background-color: rgba(0, 0, 0, 0.025); }
+  background-color: #fafafa; }
 
 /***********************************************************************************************************/
 /*** Begin Type Styles  ************************************************************************************/

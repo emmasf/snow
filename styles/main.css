@@ -129,7 +129,7 @@ body {
   z-index: 200; }
 
 #cover {
-  background-color: rgba(0, 0, 0, 0.025); }
+  background-color: #fafafa; }
 
 #story {
   width: 334px;
@@ -151,12 +151,12 @@ body {
 
 #empty {
   top: 1000px;
-  background-color: rgba(0, 0, 0, 0.025); }
+  background-color: #fafafa; }
 
 #pageEnd {
   height: 1024px;
   top: 1024px;
-  background-color: rgba(0, 0, 0, 0.025); }
+  background-color: #fafafa; }
 
 /***********************************************************************************************************/
 /*** Begin Type Styles  ************************************************************************************/
@@ -246,23 +246,38 @@ h4 {
     -skrollr-animation-name: one-cutout; }
   #cover .svg-draw path {
     -skrollr-animation-name: one-draw; }
-  #cover .button.closed {
+  #cover .button > .closed {
     -skrollr-animation-name: one-button; }
   #cover .button p {
     -skrollr-animation-name: one-button-p; }
 
-@-skrollr-keyframes sk-progress {
-  0 {
-    background: blue; }
+#story {
+  -skrollr-animation-name: two-scroll; }
+  #story .front {
+    -skrollr-animation-name: two-title; }
 
-  400 {
-    background: pink; } }
+@-skrollr-keyframes two-scroll {
+  1500 {
+    top: 1024px; }
+
+  1000 {
+    top: 0; }
+
+  2000 {
+    top: -1024px; } }
+
+@-skrollr-keyframes two-front {
+  1000 {
+    transform: rotate(0deg); }
+
+  2000 {
+    transform: rotate(30deg); } }
 
 @-skrollr-keyframes one-scroll {
   500 {
     top: 0px; }
 
-  2000 {
+  1000 {
     top: -1024px; } }
 
 @-skrollr-keyframes one-front {
@@ -284,7 +299,7 @@ h4 {
     stroke-dashoffset: 6000;
     stroke: black; }
 
-  2000 {
+  1000 {
     stroke-dashoffset: 0; } }
 
 @-skrollr-keyframes one-button {
@@ -300,3 +315,10 @@ h4 {
 
   500 {
     display: block; } }
+
+@-skrollr-keyframes sk-progress {
+  0 {
+    background: blue; }
+
+  400 {
+    background: pink; } }
