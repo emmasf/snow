@@ -1,4 +1,4 @@
 snow
 ====
 
-Live PhoneGap site
+Locked in place pre-sass
