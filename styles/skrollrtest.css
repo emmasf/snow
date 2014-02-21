@@ -236,3 +236,14 @@ h4 {
   font-weight: bold; }
 
 /*** End Type Styles ********************************************************/
+#progress {
+  -skrollr-animation-name: sk-progress; }
+
+@-skrollr-keyframes sk-progress {
+  0 {
+    width: 0%;
+    background: #00aaff; }
+
+  500 {
+    width: 100%;
+    background: #00aaff; } }

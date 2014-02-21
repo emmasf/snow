@@ -7,15 +7,13 @@
 
 	<title>The New Snow White</title>
 
-	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="styles/main-styleout.css" data-skrollr-stylesheet />
 </head>
 
 <body>
-<p id="iPadlabel">Lovely Fake iPad</p>
-<div id="iPad-frame">
-  <div id="iPad-screen">
-    <p>Why so low?</p>
 	
+	<!-- <div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div> -->
+	<!-- <div id="progress" data-top="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div> -->
 	<div id="progress"></div>
 
 	<div id="cover" class="page"
@@ -201,9 +199,6 @@
 
 	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>	
 	
-</div><!-- End iPad screen -->
-</div><!-- End iPad frame -->
-	
 <!- Begin Javascript -------------------------------------------->
     
 <!-- Factoids -->
@@ -219,6 +214,7 @@ document.getElementById('factoid01').onclick = function() {
 </script>
 
 <!-- Skrollr -->
+<script type="text/javascript" src="scripts/skrollr.stylesheets.min.js"></script>
 <script type="text/javascript" src="scripts/skrollr.min.js"></script>
 <!--[if lt IE 9]><script type="text/javascript" src="scripts/skrollr.ie.min.js"></script><![endif]-->
 <script type="text/javascript">

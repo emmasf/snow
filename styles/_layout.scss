@@ -9,25 +9,6 @@
 	z-index:200;
   }
 
-
-#snow01, #snow02, #snow03 {
-	z-index:10;
-	top:0;
-	left:0;
-  width:768px;
-	height:1024px;
-	background:url('../img/snow_01.png') repeat 0 0;
-  }
-
-#snow02 {
-	z-index:9;
-	background-image:url('../img/snow_02.png');
-  }
-
-#snow03 {
-	z-index:21;
-	background-image:url('../img/snow_03.png');
-  }
 	
 #cover {
   background-color: $page-color-dark;
