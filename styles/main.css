@@ -260,27 +260,27 @@ h4 {
   500 {
     top: 1024px; }
 
-  1000 {
+  1524px {
     top: 0; }
 
-  2500 {
+  2024px {
     top: 0; }
 
-  3000 {
+  3048px {
     top: -1024px; } }
 
 @-skrollr-keyframes two-front {
-  1000 {
+  1524px {
     transform: rotate(0deg); }
 
-  2500 {
+  2024px {
     transform: rotate(10deg); } }
 
 @-skrollr-keyframes one-scroll {
   500 {
     top: 0px; }
 
-  1000 {
+  1524px {
     top: -1024px; } }
 
 @-skrollr-keyframes one-front {
@@ -302,7 +302,7 @@ h4 {
     stroke-dashoffset: 6000;
     stroke: black; }
 
-  1000 {
+  1524px {
     stroke-dashoffset: 0; } }
 
 @-skrollr-keyframes one-button {
