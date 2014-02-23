@@ -78,7 +78,7 @@ $last_scrollstart:      $last_onscreen + $last_scroll_pause;
     top:500px;}
   #{$last_scrollstart} {
     color: rgba(255,255,255,1);
-    top:100px;}
+    top:100;}
   }
   
 @-skrollr-keyframes three-bottom-to-top {  
