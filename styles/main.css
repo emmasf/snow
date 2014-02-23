@@ -671,7 +671,7 @@ h4 {
 @-skrollr-keyframes last-bottom-to-top {
   5772 {
     color: black;
-    top: 500px; }
+    top: 500; }
 
   6672 {
     color: white;
@@ -680,29 +680,29 @@ h4 {
 @-skrollr-keyframes three-bottom-to-top {
   3848 {
     color: black;
-    top: 500px; }
+    top: 500; }
 
   4748 {
     color: white;
-    top: 100px; } }
+    top: 100; } }
 
 @-skrollr-keyframes two-bottom-to-top {
   1924 {
     color: black;
-    top: 500px; }
+    top: 500; }
 
   2824 {
     color: white;
-    top: 100px; } }
+    top: 100; } }
 
 @-skrollr-keyframes one-bottom-to-top {
   0 {
     color: black;
-    top: 500px; }
+    top: 500; }
 
   900 {
     color: white;
-    top: 100px; } }
+    top: 100; } }
 
 @-skrollr-keyframes last-scroll {
   4748 {
