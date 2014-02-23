@@ -130,6 +130,24 @@ $last_scrollstart:      $last_onscreen + 900;
     background:pink;}
   }
   
+.jumpto {
+  bottom:25px;
+  right:25px;
+  background-color: $button-color;
+  width: 200px;
+  
+  a {
+    padding: 10px;
+    line-height: 15px;
+    color: $button-text-color;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none
+    }
+  
+  }
+  
   
 
   

@@ -489,20 +489,6 @@ body {
     -o-transform-origin: 0 0;
     transform-origin: 0 0; }
 
-.jumpto {
-  bottom: 25px;
-  right: 25px;
-  background-color: #2494d1;
-  width: 200px; }
-  .jumpto a {
-    padding: 10px;
-    line-height: 15px;
-    color: #2494d1;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none; }
-
 .button .closed {
   background-color: #2494d1;
   width: 33.333%;
@@ -773,3 +759,17 @@ h4 {
 
   400 {
     background: pink; } }
+
+.jumpto {
+  bottom: 25px;
+  right: 25px;
+  background-color: #2494d1;
+  width: 200px; }
+  .jumpto a {
+    padding: 10px;
+    line-height: 15px;
+    color: #2494d1;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none; }
