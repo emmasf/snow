@@ -12,6 +12,7 @@ $progress_section_begin: 0;
 $progress_section_duration: 400;
 $progress_section_end: $progress_section_begin + $progress_section_duration;
 
+/*
 $one_before:            0;
 $one_onscreen:          0;
 $one_buffer:            100;
@@ -33,6 +34,30 @@ $three_scrolloff:       4572;
 $last_before:           3548;
 $last-onscreen:         4572;
 $last_buffer:           4672;
+$last_scrollstart:      5072;
+*/
+
+$one_before:            0;
+$one_onscreen:          0;
+$one_buffer:            $one_onscreen + $padding_buffer;
+$one_scrollstart:       500;
+$one_scrolloff:         1524;
+
+$two_before:            500;
+$two-onscreen:          1524;
+$two_buffer:            $two_onscreen + $padding_buffer;
+$two_scrollstart:       2024;
+$two_scrolloff:         3048;
+
+$three_before:          2024;
+$three-onscreen:        3048;
+$three_buffer:          $three_onscreen + $padding_buffer;
+$three_scrollstart:     3548;
+$three_scrolloff:       4572;
+
+$last_before:           3548;
+$last-onscreen:         4572;
+$last_buffer:           $last_onscreen + $padding_buffer;
 $last_scrollstart:      5072;
 
 
