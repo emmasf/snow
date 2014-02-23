@@ -25,19 +25,19 @@ $one_before:            0;
 $one_onscreen:          0;
 $one_buffer:            $one_onscreen + $one_padding_buffer;
 $one_scrollstart:       $one_onscreen + $one_scroll_pause;
-$one_scrolloff:         $one_onscreen + $screen_height_notpx;
+$one_scrolloff:         $one_scrollstart + $screen_height_notpx;
 
 $two_before:            $one_scrollstart;
 $two-onscreen:          $one_scrolloff;
 $two_buffer:            $two_onscreen + $two_padding_buffer;
 $two_scrollstart:       $two_onscreen + $two_scroll_pause;
-$two_scrolloff:         $two_onscreen + $screen_height_notpx;
+$two_scrolloff:         $two_scrollstart + $screen_height_notpx;
 
 $three_before:          $two_scrollstart;
 $three-onscreen:        $two_scrolloff;
 $three_buffer:          $three_onscreen + $three_padding_buffer;
 $three_scrollstart:     $three_onscreen + $three_scroll_pause;
-$three_scrolloff:       $three_onscreen + $screen_height_notpx;
+$three_scrolloff:       $three_scrollstart + $screen_height_notpx;
 
 $last_before:           $three_scrollstart;
 $last-onscreen:         $three_scrolloff;
