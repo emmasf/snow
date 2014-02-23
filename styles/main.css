@@ -491,17 +491,9 @@ body {
 
 .jumpto {
   bottom: 25px;
-  right: 25px;
-  background-color: #2494d1;
-  width: 200px; }
-  .jumpto a {
-    padding: 10px;
-    line-height: 15px;
-    color: #2494d1;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none; }
+  right: 25px; }
+  .jumpto img {
+    padding: 10px; }
 
 .button .closed {
   background-color: #2494d1;
@@ -773,17 +765,3 @@ h4 {
 
   400 {
     background: pink; } }
-
-.jumpto {
-  bottom: 25px;
-  right: 25px;
-  background-color: #2494d1;
-  width: 200px; }
-  .jumpto a {
-    padding: 10px;
-    line-height: 15px;
-    color: #2494d1;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none; }
