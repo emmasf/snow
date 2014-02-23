@@ -471,10 +471,6 @@ body {
   height: 1024px;
   background-color: pink; }
 
-h1 {
-  top: 25px;
-  color: black; }
-
 .page {
   width: 768px;
   height: 1024px;
@@ -616,14 +612,8 @@ q {
 
 h1 {
   font-size: 6em;
-  margin: 0; }
-
-h1 > small {
-  text-align: right;
-  display: inline-block;
-  font-size: .71em;
-  text-indent: 15em;
-  color: #444; }
+  padding: 25px;
+  color: lime; }
 
 h2 {
   color: inherit;
@@ -678,67 +668,67 @@ h4 {
     -skrollr-animation-name: last-bottom-to-top; }
 
 @-skrollr-keyframes last-bottom-to-top {
-  4572 {
+  3072 {
     color: black; }
 
-  5072 {
+  3972 {
     color: white; } }
 
 @-skrollr-keyframes three-bottom-to-top {
-  3048 {
+  2048 {
     color: black; }
 
-  3548 {
+  2948 {
     color: white; } }
 
 @-skrollr-keyframes two-bottom-to-top {
-  1524 {
+  1024 {
     color: black; }
 
-  2024 {
+  1924 {
     color: white; } }
 
 @-skrollr-keyframes one-bottom-to-top {
   0 {
     color: black; }
 
-  500 {
+  900 {
     color: white; } }
 
 @-skrollr-keyframes last-scroll {
-  3548 {
+  2948 {
     margin-top: 1024px; }
 
-  4572 {
+  3072 {
     margin-top: 0px; }
 
-  5072 {
+  3972 {
     margin-top: 0px; } }
 
 @-skrollr-keyframes three-scroll {
-  2024 {
+  1924 {
     margin-top: 1024px; }
 
-  3048 {
+  2048 {
     margin-top: 0px; }
 
-  3548 {
+  2948 {
     margin-top: 0px; }
 
-  4572 {
+  3072 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes two-scroll {
-  500 {
+  900 {
     margin-top: 1024px; }
 
-  1524 {
+  1024 {
     margin-top: 0px; }
 
-  2024 {
+  1924 {
     margin-top: 0px; }
 
-  3048 {
+  2048 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes one-scroll {
@@ -748,10 +738,10 @@ h4 {
   0 {
     margin-top: 0px; }
 
-  500 {
+  900 {
     margin-top: 0px; }
 
-  1524 {
+  1024 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes sk-progress {
