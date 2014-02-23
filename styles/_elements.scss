@@ -39,8 +39,15 @@ body {
   bottom:25px;
   right:25px;
   
-  img {
+  a {
     padding: 10px;
+    line-height: 15px;
+    color: $button-text-color;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
     }
   
   }

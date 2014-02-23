@@ -492,8 +492,15 @@ body {
 .jumpto {
   bottom: 25px;
   right: 25px; }
-  .jumpto img {
-    padding: 10px; }
+  .jumpto a {
+    padding: 10px;
+    line-height: 15px;
+    color: #2494d1;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right; }
 
 .button .closed {
   background-color: #2494d1;
