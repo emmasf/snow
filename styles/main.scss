@@ -73,23 +73,39 @@ $last_scrollstart:      $last_onscreen + $last_scroll_pause;
 
   
 @-skrollr-keyframes last-bottom-to-top {    
-  #{$last_onscreen} {color: rgba(0,0,0,1);}
-  #{$last_scrollstart} {color: rgba(255,255,255,1);}
+  #{$last_onscreen} {
+    color: rgba(0,0,0,1);
+    top:500px;}
+  #{$last_scrollstart} {
+    color: rgba(255,255,255,1);
+    top:100px;}
   }
   
 @-skrollr-keyframes three-bottom-to-top {  
-  #{$three_onscreen} {color: rgba(0,0,0,1);}
-  #{$three_scrollstart} {color: rgba(255,255,255,1);}
+  #{$three_onscreen} {
+    color: rgba(0,0,0,1);
+    top:500px;}
+  #{$three_scrollstart} {
+    color: rgba(255,255,255,1);
+    top:100px;}
   }
   
 @-skrollr-keyframes two-bottom-to-top {   
-  #{$two_onscreen} {color: rgba(0,0,0,1);}
-  #{$two_scrollstart} {color: rgba(255,255,255,1);}
+  #{$two_onscreen} {
+    color: rgba(0,0,0,1);
+    top:500px;}
+  #{$two_scrollstart} {
+    color: rgba(255,255,255,1);
+    top:100px;}
   }
   
 @-skrollr-keyframes one-bottom-to-top { 
-  #{$one_onscreen} {color: rgba(0,0,0,1);}
-  #{$one_scrollstart} {color: rgba(255,255,255,1);}
+  #{$one_onscreen} {
+    color: rgba(0,0,0,1);
+    top:500px;}
+  #{$one_scrollstart} {
+    color: rgba(255,255,255,1);
+    top:100px;}
   }
   
 @-skrollr-keyframes last-scroll {    
