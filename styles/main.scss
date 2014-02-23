@@ -43,20 +43,20 @@ $one_buffer:            $one_onscreen + $padding_buffer;
 $one_scrollstart:       500;
 $one_scrolloff:         1524;
 
-$two_before:            500;
-$two-onscreen:          1524;
+$two_before:            $one_scrollstart;
+$two-onscreen:          $one_scrolloff;
 $two_buffer:            $two_onscreen + $padding_buffer;
 $two_scrollstart:       2024;
 $two_scrolloff:         3048;
 
-$three_before:          2024;
-$three-onscreen:        3048;
+$three_before:          $two_scrollstart;
+$three-onscreen:        $two_scrolloff;
 $three_buffer:          $three_onscreen + $padding_buffer;
 $three_scrollstart:     3548;
 $three_scrolloff:       4572;
 
-$last_before:           3548;
-$last-onscreen:         4572;
+$last_before:           $three_scrollstart;
+$last-onscreen:         $three_scrolloff;
 $last_buffer:           $last_onscreen + $padding_buffer;
 $last_scrollstart:      5072;
 
