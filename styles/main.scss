@@ -4,6 +4,15 @@
 
 $scroll_pause: 500;
 $padding_buffer: 100;
+$one_scroll_pause: $scroll_pause;
+$one_padding_buffer: $padding_buffer;
+$two_scroll_pause: $scroll_pause;
+$two_padding_buffer: $padding_buffer;
+$three_scroll_pause: $scroll_pause;
+$three_padding_buffer: $padding_buffer;
+$last_scroll_pause: $scroll_pause;
+$last_padding_buffer: $padding_buffer;
+
 
 $screen_height_notpx: 1024;
 $page_height_notpx: $screen_height_notpx;
@@ -12,53 +21,28 @@ $progress_section_begin: 0;
 $progress_section_duration: 400;
 $progress_section_end: $progress_section_begin + $progress_section_duration;
 
-/*
 $one_before:            0;
 $one_onscreen:          0;
-$one_buffer:            100;
-$one_scrollstart:       500;
-$one_scrolloff:         1524;
-
-$two_before:            500;
-$two-onscreen:          1524;
-$two_buffer:            1624;
-$two_scrollstart:       2024;
-$two_scrolloff:         3048;
-
-$three_before:          2024;
-$three-onscreen:        3048;
-$three_buffer:          3148;
-$three_scrollstart:     3548;
-$three_scrolloff:       4572;
-
-$last_before:           3548;
-$last-onscreen:         4572;
-$last_buffer:           4672;
-$last_scrollstart:      5072;
-*/
-
-$one_before:            0;
-$one_onscreen:          0;
-$one_buffer:            $one_onscreen + $padding_buffer;
-$one_scrollstart:       $one_onscreen + $scroll_pause;
+$one_buffer:            $one_onscreen + $one_padding_buffer;
+$one_scrollstart:       $one_onscreen + $one_scroll_pause;
 $one_scrolloff:         $one_onscreen + $screen_height_notpx;
 
 $two_before:            $one_scrollstart;
 $two-onscreen:          $one_scrolloff;
-$two_buffer:            $two_onscreen + $padding_buffer;
-$two_scrollstart:       $two_onscreen + $scroll_pause;
+$two_buffer:            $two_onscreen + $two_padding_buffer;
+$two_scrollstart:       $two_onscreen + $two_scroll_pause;
 $two_scrolloff:         $two_onscreen + $screen_height_notpx;
 
 $three_before:          $two_scrollstart;
 $three-onscreen:        $two_scrolloff;
-$three_buffer:          $three_onscreen + $padding_buffer;
-$three_scrollstart:     $three_onscreen + $scroll_pause;
+$three_buffer:          $three_onscreen + $three_padding_buffer;
+$three_scrollstart:     $three_onscreen + $three_scroll_pause;
 $three_scrolloff:       $three_onscreen + $screen_height_notpx;
 
 $last_before:           $three_scrollstart;
 $last-onscreen:         $three_scrolloff;
-$last_buffer:           $last_onscreen + $padding_buffer;
-$last_scrollstart:      $last_onscreen + $scroll_pause;
+$last_buffer:           $last_onscreen + $last_padding_buffer;
+$last_scrollstart:      $last_onscreen + $last_scroll_pause;
 
 
 #progress {
