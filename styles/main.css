@@ -851,23 +851,21 @@ h3 {
 
 @-skrollr-keyframes three-title-transform {
   3148 {
-    color: black;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg); }
+    color: black; }
 
   4048 {
-    color: red;
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg); } }
+    color: red; } }
 
 @-skrollr-keyframes two-title-transform {
   1224 {
     color: black;
-    margin-top: 500px; }
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
 
   2124 {
     color: red;
-    margin-top: 100px; } }
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg); } }
 
 @-skrollr-keyframes one-title-transform {
   200 {

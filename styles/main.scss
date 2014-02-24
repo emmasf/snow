@@ -195,13 +195,13 @@ $last_scrollstart:      $last_onscreen + 900;
   }
   
 @-skrollr-keyframes three-title-transform {  
-  #{$three_onscreen} {color: rgba(0,0,0,1); transform:rotate(0deg); -webkit-transform:rotate(0deg);}
-  #{$three_scrollstart} { color: rgba(255,0,0,1); transform:rotate(90deg); -webkit-transform:rotate(90deg);}
+  #{$three_onscreen} {color: rgba(0,0,0,1);}
+  #{$three_scrollstart} { color: rgba(255,0,0,1);}
   }
   
 @-skrollr-keyframes two-title-transform {   
-  #{$two_onscreen} { color: rgba(0,0,0,1); margin-top:500px;}
-  #{$two_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$two_onscreen} { color: rgba(0,0,0,1); transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+  #{$two_scrollstart} { color: rgba(255,0,0,1); transform:rotate(90deg); -webkit-transform:rotate(90deg);}
   }
   
 @-skrollr-keyframes one-title-transform { 
