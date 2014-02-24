@@ -631,7 +631,7 @@ h3 {
   border: 0; }
   #cover h1 {
     margin-top: 0px;
-    margin-left: -45px; }
+    margin-left: -55px; }
 
 #howto {
   margin-top: -5000px; }
@@ -746,249 +746,249 @@ h3 {
     -skrollr-animation-name: last-title-transform; }
 
 @-skrollr-keyframes last-title-transform {
-  21164 {
+  20464 {
     color: black;
     margin-top: 500px; }
 
-  22064 {
+  21364 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes eleven-title-transform {
-  19240 {
+  18540 {
     color: black;
     margin-top: 500px; }
 
-  20140 {
+  19440 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes ten-title-transform {
-  17316 {
+  16616 {
     color: black;
     margin-top: 500px; }
 
-  18216 {
+  17516 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes nine-title-transform {
-  15392 {
+  14692 {
     color: black;
     margin-top: 500px; }
 
-  16292 {
+  15592 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes eight-title-transform {
-  13468 {
+  12768 {
     color: black;
     margin-top: 500px; }
 
-  14368 {
+  13668 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes seven-title-transform {
-  11544 {
+  10844 {
     color: black;
     margin-top: 500px; }
 
-  12444 {
+  11744 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes six-title-transform {
-  9620 {
+  8920 {
     color: black;
     margin-top: 500px; }
 
-  10520 {
+  9820 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes five-title-transform {
-  7696 {
+  6996 {
     color: black;
     margin-top: 500px; }
 
-  8596 {
+  7896 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes four-title-transform {
-  5772 {
+  5072 {
     color: black;
     margin-top: 500px; }
 
-  6672 {
+  5972 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes three-title-transform {
-  3848 {
+  3148 {
     color: black;
     margin-top: 500px; }
 
-  4748 {
+  4048 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes two-title-transform {
-  1924 {
+  1224 {
     color: black;
     margin-top: 500px; }
 
-  2824 {
+  2124 {
     color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes one-title-transform {
-  900 {
+  200 {
     margin-top: 150px; }
 
-  1924 {
+  1224 {
     margin-top: -100px; } }
 
 @-skrollr-keyframes last-scroll {
-  20140 {
+  19440 {
     margin-top: 1024px; }
 
-  21164 {
+  20464 {
     margin-top: 0px; }
 
-  22064 {
+  21364 {
     margin-top: 0px; } }
 
 @-skrollr-keyframes eleven-scroll {
-  18216 {
+  17516 {
     margin-top: 1024px; }
 
-  19240 {
+  18540 {
     margin-top: 0px; }
 
-  20140 {
+  19440 {
     margin-top: 0px; }
 
-  21164 {
+  20464 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes ten-scroll {
-  16292 {
+  15592 {
     margin-top: 1024px; }
 
-  17316 {
+  16616 {
     margin-top: 0px; }
 
-  18216 {
+  17516 {
     margin-top: 0px; }
 
-  19240 {
+  18540 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes nine-scroll {
-  14368 {
+  13668 {
     margin-top: 1024px; }
 
-  15392 {
+  14692 {
     margin-top: 0px; }
 
-  16292 {
+  15592 {
     margin-top: 0px; }
 
-  17316 {
+  16616 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes eight-scroll {
-  12444 {
+  11744 {
     margin-top: 1024px; }
 
-  13468 {
+  12768 {
     margin-top: 0px; }
 
-  14368 {
+  13668 {
     margin-top: 0px; }
 
-  15392 {
+  14692 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes seven-scroll {
-  10520 {
+  9820 {
     margin-top: 1024px; }
 
-  11544 {
+  10844 {
     margin-top: 0px; }
 
-  12444 {
+  11744 {
     margin-top: 0px; }
 
-  13468 {
+  12768 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes six-scroll {
-  8596 {
+  7896 {
     margin-top: 1024px; }
 
-  9620 {
+  8920 {
     margin-top: 0px; }
 
-  10520 {
+  9820 {
     margin-top: 0px; }
 
-  11544 {
+  10844 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes five-scroll {
-  6672 {
+  5972 {
     margin-top: 1024px; }
 
-  7696 {
+  6996 {
     margin-top: 0px; }
 
-  8596 {
+  7896 {
     margin-top: 0px; }
 
-  9620 {
+  8920 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes four-scroll {
-  4748 {
+  4048 {
     margin-top: 1024px; }
 
-  5772 {
+  5072 {
     margin-top: 0px; }
 
-  6672 {
+  5972 {
     margin-top: 0px; }
 
-  7696 {
+  6996 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes three-scroll {
-  2824 {
+  2124 {
     margin-top: 1024px; }
 
-  3848 {
+  3148 {
     margin-top: 0px; }
 
-  4748 {
+  4048 {
     margin-top: 0px; }
 
-  5772 {
+  5072 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes two-scroll {
-  900 {
+  200 {
     margin-top: 1024px; }
 
-  1924 {
+  1224 {
     margin-top: 0px; }
 
-  2824 {
+  2124 {
     margin-top: 0px; }
 
-  3848 {
+  3148 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes one-scroll {
@@ -998,10 +998,10 @@ h3 {
   0 {
     margin-top: 0px; }
 
-  900 {
+  200 {
     margin-top: 0px; }
 
-  1924 {
+  1224 {
     margin-top: -1024px; } }
 
 @-skrollr-keyframes sk-progress {

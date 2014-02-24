@@ -10,8 +10,8 @@ $progress_section_end: $progress_section_begin + $progress_section_duration;
 
 $one_before:            0;
 $one_onscreen:          0;
-$one_buffer:            $one_onscreen + 100;
-$one_scrollstart:       $one_onscreen + 900;
+$one_buffer:            $one_onscreen;
+$one_scrollstart:       $one_onscreen + 200;
 $one_scrolloff:         $one_scrollstart + $screen_height_notpx;
 
 $two_before:            $one_scrollstart;

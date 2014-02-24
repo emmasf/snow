@@ -22,7 +22,13 @@
 	  
 	<div id="howto" class="page">
 	  <h3>Let's begin.</h3>
-	  <img class="cutout" src="img/hand.png">
+	  <img class="cutout" id="hand" src="img/hand.png">
+	  <a class="toggle-hand"><img style="position:absolute;" src="img/hand.png"></a>
+    <a class="toggle-hand"><img style="display: none; position:absolute;" id="hand" src="img/hand-empty.png"></a>
+	  <img 
+     onclick="document.getElementById('hand').src=this.src" 
+     src="img/hand-empty.png">
+
 	  <!-- <div class="jumpto" ><a href="#empty"><img src="img/down.png" alt="down button"></a></div> -->
 	  </div>
 	  
@@ -117,6 +123,15 @@ document.getElementById('factoid01').onclick = function() {
 
 <!-- LiveReload -->
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+<!-- JQuery please god don't conflict with skrollr -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script>
+  $('.toggle-hand').click(function() {
+    $('#hand').toggle();
+    });
+</script>
 		
 </body>
 </html>
