@@ -196,7 +196,7 @@ $last_scrollstart:      $last_onscreen + 900;
   
 @-skrollr-keyframes three-title-transform {  
   #{$three_onscreen} {color: rgba(0,0,0,1);}
-  #{$three_scrollstart} { color: rgba(228,58,0,0.8);}
+  #{$three_scrollstart} {color: rgba(228,58,0,0.8);}
   }
   
 @-skrollr-keyframes two-title-transform {   
