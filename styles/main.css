@@ -531,18 +531,9 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
 .jumpto {
   bottom: 25px;
   right: 25px;
-  position: absolute;
-  border: 25px;
-  right: 25px; }
+  position: absolute; }
   .jumpto a {
-    padding: 10px;
-    line-height: 15px;
-    color: #2494d1;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: right; }
+    padding: 10px; }
 
 .cutout {
   top: 0px; }
@@ -645,13 +636,13 @@ h3 {
 #howto {
   margin-top: -5000px; }
   #howto .img-button-hand {
-    top: inherit;
+    top: 999px;
     left: inherit; }
 
 #empty {
   margin-top: -5000px; }
   #empty .img-button-eyes {
-    top: inherit;
+    top: 999px;
     left: inherit; }
 
 #mother {
@@ -660,19 +651,19 @@ h3 {
 #queen {
   margin-top: -5000px; }
   #queen .img-button-crown {
-    top: inherit;
+    top: 999px;
     left: inherit; }
 
 #hunstman {
   margin-top: -5000px; }
   #hunstman .img-button-knife {
-    top: inherit;
+    top: 999px;
     left: inherit; }
 
 #dwarves {
   margin-top: -5000px; }
   #dwarves .img-button-crowd {
-    top: inherit;
+    top: 999px;
     left: inherit; }
 
 #king {
