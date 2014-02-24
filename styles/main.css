@@ -463,6 +463,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 html {
   background-color: #000; }
 
@@ -547,39 +553,6 @@ body {
 .front {
   z-index: 50 !important; }
 
-#progress {
-  width: 768px;
-  height: 6px;
-  bottom: 0;
-  background: #ffc400;
-  z-index: 200; }
-
-#cover {
-  margin-top: 0px; }
-
-#howto {
-  margin-top: 1024px; }
-  #howto .factoid {
-    width: 300px;
-    position: absolute;
-    top: 400px;
-    right: 0; }
-
-#story {
-  width: 334px;
-  margin: 50px;
-  position: relative;
-  margin-top: 1024px;
-  z-index: 1000; }
-  #story p {
-    color: rgba(0, 0, 0, 0.75); }
-
-#empty {
-  margin-top: 1024px; }
-
-#pageEnd {
-  margin-top: 1024px; }
-
 /***********************************************************************************************************/
 /*** Begin Type Styles  ************************************************************************************/
 /***********************************************************************************************************/
@@ -621,7 +594,7 @@ h1 {
   margin: 0;
   padding: 25px;
   color: lime;
-  top: 500px;
+  margin-top: 500px;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
@@ -632,6 +605,7 @@ h2 {
   font-size: 4em;
   margin: 0;
   padding: 25px;
+  margin-top: 500px;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
@@ -642,6 +616,7 @@ h3 {
   font-size: 2em;
   margin: 0;
   padding: 25px;
+  margin-top: 500px;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
@@ -649,6 +624,63 @@ h3 {
   transform-origin: 0 0; }
 
 /*** End Type Styles ********************************************************/
+#progress {
+  width: 768px;
+  height: 6px;
+  bottom: 0;
+  background: #ffc400;
+  z-index: 200; }
+
+#cover {
+  margin-top: 0px; }
+
+#howto {
+  margin-top: 1024px; }
+  #howto .factoid {
+    width: 300px;
+    position: absolute;
+    top: 400px;
+    right: 0; }
+
+#story {
+  width: 334px;
+  margin: 50px;
+  position: relative;
+  margin-top: 1024px;
+  z-index: 1000; }
+  #story p {
+    color: rgba(0, 0, 0, 0.75); }
+
+#empty {
+  margin-top: 1024px; }
+
+#mother {
+  margin-top: 1024px; }
+
+#queen {
+  margin-top: 1024px; }
+
+#hunstman {
+  margin-top: 1024px; }
+
+#dwarves {
+  margin-top: 1024px; }
+
+#king {
+  margin-top: 1024px; }
+
+#sin {
+  margin-top: 1024px; }
+
+#prince {
+  margin-top: 1024px; }
+
+#love {
+  margin-top: 1024px; }
+
+#end {
+  margin-top: 1024px; }
+
 #progress {
   -skrollr-animation-name: sk-progress; }
 
@@ -715,109 +747,133 @@ h3 {
 @-skrollr-keyframes last-bottom-to-top {
   21164 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   22064 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes eleven-bottom-to-top {
   19240 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   20140 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes ten-bottom-to-top {
   17316 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   18216 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes nine-bottom-to-top {
   15392 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   16292 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes eight-bottom-to-top {
   13468 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   14368 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes seven-bottom-to-top {
   11544 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   12444 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes six-bottom-to-top {
   9620 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   10520 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes five-bottom-to-top {
   7696 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   8596 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes four-bottom-to-top {
   5772 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   6672 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes three-bottom-to-top {
   3848 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   4748 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes two-bottom-to-top {
   1924 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   2824 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes one-bottom-to-top {
   0 {
     color: black;
+    margin-top: 500px;
     top: 500px; }
 
   900 {
     color: red;
+    margin-top: 500px;
     top: 100px; } }
 
 @-skrollr-keyframes last-scroll {

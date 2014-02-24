@@ -1,6 +1,5 @@
 @import "fixed-positioning";
 @import "pages";
-@import "type";
 
 $screen_height_notpx: 1024;
 $page_height_notpx: $screen_height_notpx;
@@ -147,63 +146,63 @@ $last_scrollstart:      $last_onscreen + 900;
   
   
 @-skrollr-keyframes last-bottom-to-top {    
-  #{$last_onscreen} { color: rgba(0,0,0,1); top:500px;}
-  #{$last_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$last_onscreen} { color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$last_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes eleven-bottom-to-top {  
-  #{$eleven_onscreen} {color: rgba(0,0,0,1); top:500px;}
-  #{$eleven_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$eleven_onscreen} {color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$eleven_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes ten-bottom-to-top {  
-  #{$ten_onscreen} {color: rgba(0,0,0,1); top:500px;}
-  #{$ten_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$ten_onscreen} {color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$ten_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes nine-bottom-to-top {  
-  #{$nine_onscreen} {color: rgba(0,0,0,1); top:500px;}
-  #{$nine_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$nine_onscreen} {color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$nine_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes eight-bottom-to-top {  
-  #{$eight_onscreen} {color: rgba(0,0,0,1); top:500px;}
-  #{$eight_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$eight_onscreen} {color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$eight_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes seven-bottom-to-top {  
-  #{$seven_onscreen} {color: rgba(0,0,0,1); top:500px;}
-  #{$seven_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$seven_onscreen} {color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$seven_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes six-bottom-to-top {  
-  #{$six_onscreen} {color: rgba(0,0,0,1); top:500px;}
-  #{$six_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$six_onscreen} {color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$six_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes five-bottom-to-top {  
-  #{$five_onscreen} {color: rgba(0,0,0,1); top:500px;}
-  #{$five_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$five_onscreen} {color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$five_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes four-bottom-to-top {  
-  #{$four_onscreen} {color: rgba(0,0,0,1); top:500px;}
-  #{$four_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$four_onscreen} {color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$four_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes three-bottom-to-top {  
-  #{$three_onscreen} {color: rgba(0,0,0,1); top:500px;}
-  #{$three_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$three_onscreen} {color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$three_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes two-bottom-to-top {   
-  #{$two_onscreen} { color: rgba(0,0,0,1); top:500px;}
-  #{$two_scrollstart} { color: rgba(255,0,0,1); top:100px;}
+  #{$two_onscreen} { color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$two_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;}
   }
   
 @-skrollr-keyframes one-bottom-to-top { 
-  #{$one_onscreen} { color: rgba(0,0,0,1); top:500px;}
-  #{$one_scrollstart} { color: rgba(255,0,0,1); top:100px;} 
+  #{$one_onscreen} { color: rgba(0,0,0,1); 	margin-top:500px;top:500px;}
+  #{$one_scrollstart} { color: rgba(255,0,0,1); 	margin-top:500px;top:100px;} 
   }
   
 @-skrollr-keyframes last-scroll {    
