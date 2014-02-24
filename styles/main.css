@@ -631,10 +631,10 @@ h3 {
   border: 0; }
   #cover h1 {
     margin-top: 0px;
-    margin-left: -30px; }
+    margin-left: -45px; }
 
 #howto {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
   #howto .factoid {
     width: 300px;
     position: absolute;
@@ -645,40 +645,40 @@ h3 {
   width: 334px;
   margin: 50px;
   position: relative;
-  margin-top: 1024px;
+  margin-top: -5000px;
   z-index: 1000; }
   #story p {
     color: rgba(0, 0, 0, 0.75); }
 
 #empty {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
 
 #mother {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
 
 #queen {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
 
 #hunstman {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
 
 #dwarves {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
 
 #king {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
 
 #sin {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
 
 #prince {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
 
 #love {
-  margin-top: 1024px; }
+  margin-top: -5000px; }
 
 #end {
-  margin-top: 1024px;
+  margin-top: -5000px;
   background-color: #ebebeb;
   border: 0; }
 
