@@ -25,7 +25,13 @@
 	 <span>
 	    <img class="tap-image" src="img/hand.png"></a>
       <img class="tap-image hidden-white" id="hand" src="img/hand-empty.png"></a>
-      <a class="img-button">yes</a>
+      <a class="button img-button">yes</a>
+      </span>
+    <span>
+      <div class="story hidden" id="howto-story">
+        <p>This is the text on page one.</p>
+        </div>
+      <a class="button story-button">a</a>
       </span>	  
       <!-- <div class="jumpto" ><a href="#empty"><img src="img/down.png" alt="down button"></a></div> -->
 	  </div>
@@ -35,7 +41,7 @@
 	  <span>
 	    <img class="tap-image" src="img/snowwhite.png"></a>
       <img class="tap-image hidden-white" id="eyes" src="img/snowwhite-eyes.png"></a>
-      <a class="img-button">yes</a>
+      <a class="button img-button">yes</a>
       </span>
     <!-- <div class="jumpto" ><a href="#mother"><img src="img/down.png" alt="down button"></a></div> -->
 	  </div>
@@ -51,7 +57,7 @@
 	 <span>
 	    <img class="tap-image" src="img/queen-crown.png"></a>
       <img class="tap-image hidden-white" id="crown" src="img/queen.png"></a>
-      <a class="img-button">yes</a>
+      <a class="button img-button">yes</a>
       </span>	 
 	  <!-- <div class="jumpto" ><a href="#hunstman"><img src="img/down.png" alt="down button"></a></div> -->
 	  </div>
@@ -61,7 +67,7 @@
     <span>
 	    <img class="tap-image" src="img/hunstman.png"></a>
       <img class="tap-image hidden-white" id="knife" src="img/hunstman-phallus.png"></a>
-      <a class="img-button">yes</a>
+      <a class="button img-button">yes</a>
       </span>	 
 	  <!-- <div class="jumpto" ><a href="#dwarves"><img src="img/down.png" alt="down button"></a></div> -->
 	  </div>
@@ -71,7 +77,7 @@
     <span>
 	    <img class="tap-image" src="img/dwarves.png"></a>
       <img class="tap-image hidden-white" id="crowd" src="img/dwarves-crowd.png"></a>
-      <a class="img-button">yes</a>
+      <a class="button img-button">yes</a>
       </span>	      
 <!-- 	  <div class="jumpto" ><a href="#king"><img src="img/down.png" alt="down button"></a></div> -->
 	  </div>
@@ -93,7 +99,7 @@
     <span>
 	    <img class="tap-image" src="img/coffin.png"></a>
       <img class="tap-image hidden-white" id="death" src="img/coffin-death.png"></a>
-      <a class="img-button">yes</a>
+      <a class="button img-button">yes</a>
       </span>	
 	  <!-- <div class="jumpto" ><a href="#love"><img src="img/down.png" alt="down button"></a></div> -->
 	  </div>
@@ -140,6 +146,21 @@
     $('#knife').toggle();
     $('#crowd').toggle();
     $('#death').toggle();
+  });
+</script>
+
+<script>
+  $('.story-button').click(function() { 
+    $('#howto-story').toggle();
+    $('#empty-story').toggle();
+    $('#mother-story').toggle();
+    $('#queen-story').toggle();
+    $('#hunstman-story').toggle();
+    $('#dwarves-story').toggle();
+    $('#king-story').toggle();
+    $('#sin-story').toggle();
+    $('#prince-story').toggle();
+    $('#love-story').toggle();
   });
 </script>
 
