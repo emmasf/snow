@@ -493,7 +493,7 @@ body {
 
 .story {
   position: absolute;
-  width: 300px;
+  width: 360px;
   top: 200px;
   left: 50px;
   z-index: 4000; }
@@ -512,14 +512,17 @@ body {
   font-size: 24px;
   background-color: rgba(228, 58, 0, 0.8); }
 
-#story-button a {
+#story-button {
   position: fixed;
   top: 25px;
   left: 700px;
+  color: #2494d1; }
+
+#story-button a {
   font-size: 24px;
   padding: 10px 15px;
   color: #2494d1;
-  background: rgba(200, 200, 200, 0.75);
+  background: rgba(200, 200, 200, 0.25);
   cursor: pointer; }
 
 #story-button a:active, #story-button a:hover, #story-button a:press, #story-button a:focus {
