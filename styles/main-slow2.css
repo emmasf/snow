@@ -495,7 +495,11 @@ body {
   top: 100px;
   left: 25px;
   z-index: 5000;
-  font-size: 100px; }
+  font-size: 24px;
+  padding: 10px;
+  background-color: rgba(231, 41, 0, 0.75);
+  transform: rotate(45%);
+  -webkit-transform: rotate(45%); }
 
 /* .page:nth-child(odd) {border-bottom: 10px solid $page-color-dark;} */
 .jumpto {
