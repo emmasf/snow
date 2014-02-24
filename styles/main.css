@@ -490,6 +490,13 @@ body {
   position: absolute;
   width: 768px; }
 
+.img-button {
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  z-index: 5000;
+  font-size: 100px; }
+
 /* .page:nth-child(odd) {border-bottom: 10px solid $page-color-dark;} */
 .jumpto {
   bottom: 25px;

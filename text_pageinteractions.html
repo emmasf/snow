@@ -9,11 +9,19 @@
 
 	<link rel="stylesheet" type="text/css" href="styles/main.css" data-skrollr-stylesheet />
 	<style>
-	  .tester-page {width:768px; height:1024px; background: #fff; border-bottom: 2px solid pink;}
+	  .tester-page {width:768px; height:1024px; background: #fff; border-bottom: 2px solid pink; position: relative}
 	  .tester-page img {width: 768px;}
 	  
 	  .hidden-white {display: none;}
 	  .tap-image {position:absolute;}
+	  
+	  .img-button {
+	    position:absolute; 
+	    top: 100px; 
+	    left: 25px; 
+	    z-index: 5000; 
+  	  font-size: 100px;
+      }
 	</style>
 	
 </head>
@@ -35,6 +43,14 @@
 </div>
 
 
+<div class="tester-page">
+<img class="tap-image" src="img/dwarves.png">
+<img class="tap-image hidden-white" id="crowd" src="img/dwarves-guys.png">
+<a class="img-button">yes</a>
+<a class="img-button" id="crowd-button">try that?</a>
+</div>
+
+
 <!--JS schtuff ----->
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -50,6 +66,12 @@
 <script>
   $('.toggle').click(function() { $('#hand').toggle();});
   $('.toggle-two').click(function() { $('#crown').toggle();});
+</script>
+
+<script>
+  $('.img-button').click(function() 
+    { $('#crowd').toggle();
+  });
 </script>
 
 
