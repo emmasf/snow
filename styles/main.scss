@@ -90,7 +90,7 @@ $last_scrollstart:      $last_onscreen + 900;
     
 #cover {
   -skrollr-animation-name:one-scroll; 
-  h1, h2, h3 {-skrollr-animation-name:one-title-transform;}    
+  h1 {-skrollr-animation-name:one-title-transform;}    
   }    
 
 #howto {
@@ -100,52 +100,52 @@ $last_scrollstart:      $last_onscreen + 900;
   
 #empty {
   -skrollr-animation-name:three-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:three-title-transform;} 
+  h2 {-skrollr-animation-name:three-title-transform;} 
   }
   
 #mother {
   -skrollr-animation-name:four-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:four-title-transform;} 
+  h2 {-skrollr-animation-name:four-title-transform;} 
   }
   
 #queen {
   -skrollr-animation-name:five-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:five-title-transform;} 
+  h2 {-skrollr-animation-name:five-title-transform;} 
   } 
   
 #hunstman {
   -skrollr-animation-name:six-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:six-title-transform;} 
+  h2 {-skrollr-animation-name:six-title-transform;} 
   } 
   
 #dwarves {
   -skrollr-animation-name:seven-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:seven-title-transform;} 
+  h2 {-skrollr-animation-name:seven-title-transform;} 
   } 
   
 #king {
   -skrollr-animation-name:eight-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:eight-title-transform;} 
+  h2 {-skrollr-animation-name:eight-title-transform;} 
   } 
   
 #sin {
   -skrollr-animation-name:nine-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:nine-title-transform;} 
+  h2 {-skrollr-animation-name:nine-title-transform;} 
   } 
   
 #prince {
   -skrollr-animation-name:ten-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:ten-title-transform;} 
+  h1  {-skrollr-animation-name:ten-title-transform;}
   }
   
 #love {
   -skrollr-animation-name:eleven-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:eleven-title-transform;} 
+  h2 {-skrollr-animation-name:eleven-title-transform;} 
   }  
 
 #end {  
   -skrollr-animation-name:last-scroll; 
-  h1, h2, h3 {-skrollr-animation-name:last-title-transform;}  
+  h2 {-skrollr-animation-name:last-title-transform;}  
   }
   
   
@@ -306,9 +306,3 @@ $last_scrollstart:      $last_onscreen + 900;
   #{$last_before} { top: 25px; }
   #{$last_onscreen} { top: -1024px }
   }
-  
-  
-  
-  
-
-  
