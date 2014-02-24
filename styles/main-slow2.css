@@ -520,7 +520,7 @@ body {
   }
 */
 .factoid {
-  background-color: rgba(231, 41, 0, 0.75);
+  background-color: rgba(228, 58, 0, 0.8);
   padding: 15px; }
   .factoid p {
     padding: 0;
@@ -590,7 +590,8 @@ html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
   padding: 0;
   line-height: 1;
   font-family: "Helvetica Neue", Helvetica, Arial, serif;
-  text-align: left; }
+  text-align: left;
+  color: black; }
 
 ol, ul {
   list-style: none; }
@@ -616,7 +617,8 @@ q {
   color: #333; }
 
 h1 {
-  font-size: 6em;
+  font-size: 12em;
+  margin: 0;
   padding: 25px;
   color: lime;
   top: 500px;
@@ -627,38 +629,24 @@ h1 {
   transform-origin: 0 0; }
 
 h2 {
-  color: inherit;
   font-size: 4em;
-  margin: 2em 0 1em 0;
-  padding: 50px;
+  margin: 0;
+  padding: 25px;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   -o-transform-origin: 0 0;
   transform-origin: 0 0; }
 
-h2:first-child {
-  margin-top: 0; }
-
 h3 {
-  color: #333;
-  font-size: 1.41em;
-  margin: 1em 0; }
-
-h4 {
-  color: #444;
-  font-size: 1.11em;
-  margin: 1em 0; }
-
-#transform {
-  text-align: center;
-  font-size: 150%; }
-
-#properties {
-  text-align: center; }
-
-.drop {
-  font-weight: bold; }
+  font-size: 2em;
+  margin: 0;
+  padding: 25px;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0; }
 
 /*** End Type Styles ********************************************************/
 #progress {

@@ -9,9 +9,14 @@ $page-divider: $page-color-dark;
 
 $button-color: rgba(36,148,209,1);
 $button-text-color: rgba(36,148,209,1);
-$factoid-color: rgba(231,41,0,0.75);
+
+$red: rgba(228,58,0,0.8);
+$blue: rgba(231,41,0,0.75);
+
+$factoid-color: $red;
 
 $story-color:  rgba(0,0,0,0.75);
+$text-color: rgba(0,0,0,1);
 
 $sans-type: "Helvetica Neue", Helvetica, Arial, serif;
 $serif-type: "Arnhem", Georgia, serif;
