@@ -97,7 +97,19 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
   top:100px; 
   left: 200px; 
   }
+  
+.factoid {
+  position: absolute;
+  min-height: 20px;
+  background-color: $blue;
+  }
 
 .back {z-index:1 !important;}
 .middle {z-index:25 !important;}
 .front {z-index:50 !important;}
+
+
+
+
+
+
