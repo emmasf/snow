@@ -8,6 +8,7 @@ html {
 body {  
   width:$screen-width-px;
   height:$screen-height-px;
+  background-color: pink;
   }
   
 .page {
@@ -16,8 +17,8 @@ body {
 /*   border-bottom: 2px solid $page-divider;  */   	
 	}
 	
-.page:nth-child(odd) {background: #fff;}
-.page:nth-child(even) {background: $page-color-dark;}
+.page:nth-child(odd) {background-color: $page-color-light;}
+.page:nth-child(even) {background-color: $page-color-dark;}
 	
 .jumpto {
   bottom:25px;

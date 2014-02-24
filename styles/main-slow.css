@@ -468,7 +468,8 @@ html {
 
 body {
   width: 768px;
-  height: 1024px; }
+  height: 1024px;
+  background-color: pink; }
 
 .page {
   width: 768px;
@@ -476,10 +477,10 @@ body {
   /*   border-bottom: 2px solid $page-divider;  */ }
 
 .page:nth-child(odd) {
-  background: #fff; }
+  background-color: white; }
 
 .page:nth-child(even) {
-  background: #ebebeb; }
+  background-color: #ebebeb; }
 
 .jumpto {
   bottom: 25px;
