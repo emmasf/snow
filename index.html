@@ -46,15 +46,7 @@
     </div>
 	  
 	<div id="howto" class="page">
-<!--
-	  <h3
-	    data-100="transform:rotate(0deg)" 
-      data-900="transform:rotate(-90deg)">Let's begin.</h3>
-	  <div class="factoid closed" id="factoid01">
-      <p>Elements like this one reveal new and exciting information 
-      about the story.</p>
-     </div>
--->
+
 	 <span>
 	    <img class="tap-image" src="img/hand-white.png"></a>
       <img class="tap-image hidden" id="hand" src="img/hand.png"></a>
@@ -188,7 +180,6 @@
 	  
   <div id="prince" class="page">
 	  <h2>The Prince is a necrophiliac.</h2>
-	  <img src="img/drawn-coffin.png"/>
     <span>
 	    <img class="tap-image" src="img/coffin-white.png"></a>
       <img class="tap-image hidden" id="death" src="img/coffin.png"></a>
@@ -235,30 +226,12 @@
 	  </div>
 	
 <!- Begin Javascript -------------------------------------------->
-  
-<!--
-  <script type="text/javascript">
-document.getElementById('factoid01').onclick = function() {  
-  var className = ' ' + factoid01.className + ' ';  
-  if ( ~className.indexOf(' open ') ) { this.className = className.replace(' open ', ' ');} else { this.className += ' open';}}
-</script> 
---> 
+
 
 <!-- Skrollr -->
 <script type="text/javascript" src="scripts/skrollr.stylesheets.min.js"></script>
 <script type="text/javascript" src="scripts/skrollr.min.js"></script>
 <!--[if lt IE 9]><script type="text/javascript" src="scripts/skrollr.ie.min.js"></script><![endif]-->
-<script type="text/javascript">
-  var s = skrollr.init({
-  	edgeStrategy: 'set',
-  	easing: {
-  		WTF: Math.random,
-  		inverted: function(p) {
-  			return 1-p;
-      }
-  	}
-  });
-</script>
 
 
 	<!-- JQuery please god don't conflict with skrollr -->
