@@ -100,9 +100,22 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
   
 .factoid {
   position: absolute;
-  min-height: 20px;
-  background-color: $blue;
+  min-height: 30px;
+  background-color: $red;
+  
+  p { 
+    padding:20px; 
+    display: none;
+    font-family: $sans-type;
+    }
+  
   }
+
+.open p {
+    display:block;
+    }    
+   
+  
 
 .back {z-index:1 !important;}
 .middle {z-index:25 !important;}

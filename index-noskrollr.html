@@ -45,13 +45,16 @@
       </span>
     <div class="story hidden" id="howto-story">
       <p>Tap on the a button to read the story.</p>
+      </div>
+    <div class="factoid" id="factoid01">
+      <p>Elements like this one reveal new and exciting information about the story.</p>
       </div>      	  
-      <div class="jumpto" >
-  	    <a href="#01"><img src="img/down.png" alt="up button" 
-  	    style="transform: rotate(180deg); -webkit-transform: rotate(180deg); position:absolute; right:75px; top: -45px;"></a>
-  	    <a href="#03"><img src="img/down.png" alt="up button" 
-  	    style="position:absolute; right:10px; top: -45px;"></a>
-  	    </div>    
+    <div class="jumpto" >
+	    <a href="#01"><img src="img/down.png" alt="up button" 
+	    style="transform: rotate(180deg); -webkit-transform: rotate(180deg); position:absolute; right:75px; top: -45px;"></a>
+	    <a href="#03"><img src="img/down.png" alt="up button" 
+	    style="position:absolute; right:10px; top: -45px;"></a>
+	    </div>    
 	  </div>
 	  
 	<div id="03" class="static-page">
@@ -274,13 +277,8 @@
 <!- Begin Javascript -------------------------------------------->
     
 
-
-
 	<!-- JQuery please god don't conflict with skrollr -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 <script>  $('#img-button-hand').click(function() { $('#hand').toggle(); }); </script>
 <script>  $('#img-button-eyes').click(function() { $('#eyes').toggle(); }); </script>
@@ -304,7 +302,19 @@
   });
 </script>
 
+<!-- Factoids -->
+<script type="text/javascript">
+document.getElementById('factoid01').onclick = function() {  
+  var className = ' ' + factoid01.className + ' ';  
+  if ( ~className.indexOf(' open ') ) {
+      this.className = className.replace(' open ', ' ');
+    } else {
+      this.className += ' open';
+    }              
+  }
+</script>
 
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 		
 </body>
 </html>

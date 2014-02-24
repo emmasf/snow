@@ -22,7 +22,7 @@
 	  
 	<div id="howto" class="page">
 	  <h3>Let's begin.</h3>
-	  <div class="factoid closed" id="factoid01">
+	  <div class="factoid" id="factoid01">
       <p>Elements like this one reveal new and exciting information 
       about the story.</p>
      </div>
@@ -249,6 +249,18 @@
     $('#prince-story').toggle();
     $('#love-story').toggle();
   });
+</script>
+
+<!-- Factoids -->
+<script type="text/javascript">
+document.getElementById('factoid01').onclick = function() {  
+  var className = ' ' + factoid01.className + ' ';  
+  if ( ~className.indexOf(' open ') ) {
+      this.className = className.replace(' open ', ' ');
+    } else {
+      this.className += ' open';
+    }              
+  }
 </script>
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>

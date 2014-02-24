@@ -549,8 +549,15 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
 
 .factoid {
   position: absolute;
-  min-height: 20px;
-  background-color: #2494d1; }
+  min-height: 30px;
+  background-color: rgba(228, 57, 0, 0.8); }
+  .factoid p {
+    padding: 20px;
+    display: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, serif; }
+
+.open p {
+  display: block; }
 
 .back {
   z-index: 1 !important; }
@@ -647,10 +654,11 @@ h3 {
 
 #howto {
   margin-top: -5000px; }
-  #howto .factoid {
-    width: 300px;
-    top: 400px;
-    right: 0px; }
+
+#factoid01 {
+  width: 300px;
+  top: 400px;
+  right: 0px; }
 
 #img-button-hand {
   top: 600px;
