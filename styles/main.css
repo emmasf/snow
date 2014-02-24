@@ -545,7 +545,7 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
 .drawing {
   position: absolute;
   top: 100px;
-  left: 300px; }
+  left: 200px; }
 
 .back {
   z-index: 1 !important; }
@@ -686,6 +686,9 @@ h3 {
 
 #prince {
   margin-top: -5000px; }
+  #prince .drawing {
+    top: 100px;
+    left: 200px; }
 
 #img-button-death {
   top: 560px;
