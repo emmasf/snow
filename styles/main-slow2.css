@@ -475,7 +475,7 @@ body {
   height: 1024px;
   border-bottom: 1px solid white; }
 
-.page:nth-child(even) {
+.page:nth-child(odd) {
   background: white url("../img/backgroundx.png"); }
 
 .page:nth-child(even) {
