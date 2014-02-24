@@ -208,7 +208,12 @@
 	  </div>
 	
 <!- Begin Javascript -------------------------------------------->
-    
+  
+  <script type="text/javascript">
+document.getElementById('factoid01').onclick = function() {  
+  var className = ' ' + factoid01.className + ' ';  
+  if ( ~className.indexOf(' open ') ) { this.className = className.replace(' open ', ' ');} else { this.className += ' open';}}
+</script>  
 
 <!-- Skrollr -->
 <script type="text/javascript" src="scripts/skrollr.stylesheets.min.js"></script>
@@ -230,11 +235,6 @@
 	<!-- JQuery please god don't conflict with skrollr -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-<script type="text/javascript">
-document.getElementById('factoid01').onclick = function() {  
-  var className = ' ' + factoid01.className + ' ';  
-  if ( ~className.indexOf(' open ') ) { this.className = className.replace(' open ', ' ');} else { this.className += ' open';}}
-</script>
 
 <script>  $('#img-button-hand').click(function() { $('#hand').toggle(); }); </script>
 <script>  $('#img-button-eyes').click(function() { $('#eyes').toggle(); }); </script>
