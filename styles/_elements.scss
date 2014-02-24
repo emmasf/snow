@@ -13,7 +13,7 @@ body {
 .page {
   width:$screen-width-px;
 	height:$page-height-px;		
-  border-bottom: 1px solid $page-divider;    	
+/*   border-bottom: 2px solid $page-divider;  */   	
 	}
 	
 .page:nth-child(odd) {background: #fff;}
