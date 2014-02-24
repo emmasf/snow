@@ -463,7 +463,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-html, body {
+html {
   background-color: #000; }
 
 body {
@@ -474,20 +474,8 @@ body {
 .page {
   width: 768px;
   height: 1024px;
-  background: url("../img/backgroundx.png"); }
-  .page h1 {
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    transform-origin: 0 0; }
-  .page h2 {
-    padding: 50px;
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    transform-origin: 0 0; }
+  background: url("../img/backgroundx.png");
+  border-bottom: 1px solid white; }
 
 .jumpto {
   bottom: 25px;
@@ -554,14 +542,10 @@ body {
   z-index: 200; }
 
 #cover {
-  margin-top: 0px;
-  background-color: white;
-  background-color: aqua; }
+  margin-top: 0px; }
 
 #howto {
-  margin-top: 1024px;
-  background-color: #ebebeb;
-  background-color: red; }
+  margin-top: 1024px; }
   #howto .factoid {
     width: 300px;
     position: absolute;
@@ -573,20 +557,15 @@ body {
   margin: 50px;
   position: relative;
   margin-top: 1024px;
-  z-index: 1000;
-  background-color: blue; }
+  z-index: 1000; }
   #story p {
     color: rgba(0, 0, 0, 0.75); }
 
 #empty {
-  margin-top: 1024px;
-  background-color: white;
-  background-color: lime; }
+  margin-top: 1024px; }
 
 #pageEnd {
-  margin-top: 1024px;
-  background-color: #ebebeb;
-  background-color: violet; }
+  margin-top: 1024px; }
 
 /***********************************************************************************************************/
 /*** Begin Type Styles  ************************************************************************************/
@@ -627,12 +606,23 @@ h1 {
   font-size: 6em;
   padding: 25px;
   color: lime;
-  top: 500px; }
+  top: 500px;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0; }
 
 h2 {
   color: inherit;
   font-size: 4em;
-  margin: 2em 0 1em 0; }
+  margin: 2em 0 1em 0;
+  padding: 50px;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0; }
 
 h2:first-child {
   margin-top: 0; }

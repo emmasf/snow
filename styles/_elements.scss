@@ -1,7 +1,7 @@
 @import "normalize";
 @import "variables";
 
-html, body {
+html {
   background-color: #000;
   }
   
@@ -11,28 +11,11 @@ body {
   background-color: pink;
   }
   
-  .page {
+.page {
   width:$screen-width-px;
 	height:$page-height-px;
-	background: url("../img/backgroundx.png");
-	
-	
-  h1 {
-  	-webkit-transform-origin:0 0;
-  	-moz-transform-origin:0 0;
-  	-ms-transform-origin:0 0;
-  	-o-transform-origin:0 0;
-  	transform-origin:0 0;
-  	}
-  	
-  h2 {
-    padding:50px;
-  	-webkit-transform-origin:0 0;
-  	-moz-transform-origin:0 0;
-  	-ms-transform-origin:0 0;
-  	-o-transform-origin:0 0;
-  	transform-origin:0 0;
-  	}	  	
+	background: url("../img/backgroundx.png");		
+  border-bottom: 1px solid $page-divider;    	
 	}
 	
 .jumpto {

@@ -48,12 +48,23 @@ h1 {
 	padding:25px;
 	color:rgba(0,255,0,1);
 	top:500px;
+	-webkit-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-o-transform-origin:0 0;
+	transform-origin:0 0; 	
   }
 
 h2 {
 	color:inherit;
 	font-size:4em;
 	margin:2em 0 1em 0;
+  padding:50px;
+	-webkit-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-o-transform-origin:0 0;
+	transform-origin:0 0;
   }
 
 h2:first-child {margin-top:0;}

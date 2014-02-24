@@ -463,7 +463,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-html, body {
+html {
   background-color: #000; }
 
 body {
@@ -474,20 +474,8 @@ body {
 .page {
   width: 768px;
   height: 1024px;
-  background: url("../img/backgroundx.png"); }
-  .page h1 {
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    transform-origin: 0 0; }
-  .page h2 {
-    padding: 50px;
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    transform-origin: 0 0; }
+  background: url("../img/backgroundx.png");
+  border-bottom: 1px solid white; }
 
 .jumpto {
   bottom: 25px;
@@ -554,14 +542,10 @@ body {
   z-index: 200; }
 
 #cover {
-  margin-top: 0px;
-  background-color: white;
-  background-color: aqua; }
+  margin-top: 0px; }
 
 #howto {
-  margin-top: 1024px;
-  background-color: #ebebeb;
-  background-color: red; }
+  margin-top: 1024px; }
   #howto .factoid {
     width: 300px;
     position: absolute;
@@ -573,20 +557,15 @@ body {
   margin: 50px;
   position: relative;
   margin-top: 1024px;
-  z-index: 1000;
-  background-color: blue; }
+  z-index: 1000; }
   #story p {
     color: rgba(0, 0, 0, 0.75); }
 
 #empty {
-  margin-top: 1024px;
-  background-color: white;
-  background-color: lime; }
+  margin-top: 1024px; }
 
 #pageEnd {
-  margin-top: 1024px;
-  background-color: #ebebeb;
-  background-color: violet; }
+  margin-top: 1024px; }
 
 /***********************************************************************************************************/
 /*** Begin Type Styles  ************************************************************************************/
@@ -627,12 +606,23 @@ h1 {
   font-size: 6em;
   padding: 25px;
   color: lime;
-  top: 500px; }
+  top: 500px;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0; }
 
 h2 {
   color: inherit;
   font-size: 4em;
-  margin: 2em 0 1em 0; }
+  margin: 2em 0 1em 0;
+  padding: 50px;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0; }
 
 h2:first-child {
   margin-top: 0; }
@@ -663,25 +653,137 @@ h4 {
 
 #cover {
   -skrollr-animation-name: one-scroll; }
-  #cover h1 {
+  #cover h1, #cover h2, #cover h3 {
     -skrollr-animation-name: one-bottom-to-top; }
 
 #howto {
   -skrollr-animation-name: two-scroll; }
-  #howto h1 {
+  #howto h1, #howto h2, #howto h3 {
     -skrollr-animation-name: two-bottom-to-top; }
 
 #empty {
   -skrollr-animation-name: three-scroll; }
-  #empty h1 {
+  #empty h1, #empty h2, #empty h3 {
     -skrollr-animation-name: three-bottom-to-top; }
 
-#pageEnd {
+#mother {
+  -skrollr-animation-name: four-scroll; }
+  #mother h1, #mother h2, #mother h3 {
+    -skrollr-animation-name: four-bottom-to-top; }
+
+#queen {
+  -skrollr-animation-name: five-scroll; }
+  #queen h1, #queen h2, #queen h3 {
+    -skrollr-animation-name: five-bottom-to-top; }
+
+#hunstman {
+  -skrollr-animation-name: six-scroll; }
+  #hunstman h1, #hunstman h2, #hunstman h3 {
+    -skrollr-animation-name: six-bottom-to-top; }
+
+#dwarves {
+  -skrollr-animation-name: seven-scroll; }
+  #dwarves h1, #dwarves h2, #dwarves h3 {
+    -skrollr-animation-name: seven-bottom-to-top; }
+
+#king {
+  -skrollr-animation-name: eight-scroll; }
+  #king h1, #king h2, #king h3 {
+    -skrollr-animation-name: eight-bottom-to-top; }
+
+#sin {
+  -skrollr-animation-name: nine-scroll; }
+  #sin h1, #sin h2, #sin h3 {
+    -skrollr-animation-name: nine-bottom-to-top; }
+
+#prince {
+  -skrollr-animation-name: ten-scroll; }
+  #prince h1, #prince h2, #prince h3 {
+    -skrollr-animation-name: ten-bottom-to-top; }
+
+#love {
+  -skrollr-animation-name: eleven-scroll; }
+  #love h1, #love h2, #love h3 {
+    -skrollr-animation-name: eleven-bottom-to-top; }
+
+#end {
   -skrollr-animation-name: last-scroll; }
-  #pageEnd h1 {
+  #end h1, #end h2, #end h3 {
     -skrollr-animation-name: last-bottom-to-top; }
 
 @-skrollr-keyframes last-bottom-to-top {
+  21164 {
+    color: black;
+    top: 500px; }
+
+  22064 {
+    color: white;
+    top: 100px; } }
+
+@-skrollr-keyframes eleven-bottom-to-top {
+  19240 {
+    color: black;
+    top: 500px; }
+
+  20140 {
+    color: white;
+    top: 100px; } }
+
+@-skrollr-keyframes ten-bottom-to-top {
+  17316 {
+    color: black;
+    top: 500px; }
+
+  18216 {
+    color: white;
+    top: 100px; } }
+
+@-skrollr-keyframes nine-bottom-to-top {
+  15392 {
+    color: black;
+    top: 500px; }
+
+  16292 {
+    color: white;
+    top: 100px; } }
+
+@-skrollr-keyframes eight-bottom-to-top {
+  13468 {
+    color: black;
+    top: 500px; }
+
+  14368 {
+    color: white;
+    top: 100px; } }
+
+@-skrollr-keyframes seven-bottom-to-top {
+  11544 {
+    color: black;
+    top: 500px; }
+
+  12444 {
+    color: white;
+    top: 100px; } }
+
+@-skrollr-keyframes six-bottom-to-top {
+  9620 {
+    color: black;
+    top: 500px; }
+
+  10520 {
+    color: white;
+    top: 100px; } }
+
+@-skrollr-keyframes five-bottom-to-top {
+  7696 {
+    color: black;
+    top: 500px; }
+
+  8596 {
+    color: white;
+    top: 100px; } }
+
+@-skrollr-keyframes four-bottom-to-top {
   5772 {
     color: black;
     top: 500px; }
@@ -718,6 +820,107 @@ h4 {
     top: 100px; } }
 
 @-skrollr-keyframes last-scroll {
+  20140 {
+    margin-top: 1024px; }
+
+  21164 {
+    margin-top: 0px; }
+
+  22064 {
+    margin-top: 0px; } }
+
+@-skrollr-keyframes eleven-scroll {
+  18216 {
+    margin-top: 1024px; }
+
+  19240 {
+    margin-top: 0px; }
+
+  20140 {
+    margin-top: 0px; }
+
+  21164 {
+    margin-top: -1024px; } }
+
+@-skrollr-keyframes ten-scroll {
+  16292 {
+    margin-top: 1024px; }
+
+  17316 {
+    margin-top: 0px; }
+
+  18216 {
+    margin-top: 0px; }
+
+  19240 {
+    margin-top: -1024px; } }
+
+@-skrollr-keyframes nine-scroll {
+  14368 {
+    margin-top: 1024px; }
+
+  15392 {
+    margin-top: 0px; }
+
+  16292 {
+    margin-top: 0px; }
+
+  17316 {
+    margin-top: -1024px; } }
+
+@-skrollr-keyframes eight-scroll {
+  12444 {
+    margin-top: 1024px; }
+
+  13468 {
+    margin-top: 0px; }
+
+  14368 {
+    margin-top: 0px; }
+
+  15392 {
+    margin-top: -1024px; } }
+
+@-skrollr-keyframes seven-scroll {
+  10520 {
+    margin-top: 1024px; }
+
+  11544 {
+    margin-top: 0px; }
+
+  12444 {
+    margin-top: 0px; }
+
+  13468 {
+    margin-top: -1024px; } }
+
+@-skrollr-keyframes six-scroll {
+  8596 {
+    margin-top: 1024px; }
+
+  9620 {
+    margin-top: 0px; }
+
+  10520 {
+    margin-top: 0px; }
+
+  11544 {
+    margin-top: -1024px; } }
+
+@-skrollr-keyframes five-scroll {
+  6672 {
+    margin-top: 1024px; }
+
+  7696 {
+    margin-top: 0px; }
+
+  8596 {
+    margin-top: 0px; }
+
+  9620 {
+    margin-top: -1024px; } }
+
+@-skrollr-keyframes four-scroll {
   4748 {
     margin-top: 1024px; }
 
@@ -725,7 +928,10 @@ h4 {
     margin-top: 0px; }
 
   6672 {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+
+  7696 {
+    margin-top: -1024px; } }
 
 @-skrollr-keyframes three-scroll {
   2824 {

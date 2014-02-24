@@ -27,8 +27,56 @@ $three_buffer:          $three_onscreen + 100;
 $three_scrollstart:     $three_onscreen + 900;
 $three_scrolloff:       $three_scrollstart + $screen_height_notpx;
 
-$last_before:           $three_scrollstart;
-$last-onscreen:         $three_scrolloff;
+$four_before:          $three_scrollstart;
+$four-onscreen:        $three_scrolloff;
+$four_buffer:          $four_onscreen + 100;
+$four_scrollstart:     $four_onscreen + 900;
+$four_scrolloff:       $four_scrollstart + $screen_height_notpx;
+
+$five_before:          $four_scrollstart;
+$five-onscreen:        $four_scrolloff;
+$five_buffer:          $five_onscreen + 100;
+$five_scrollstart:     $five_onscreen + 900;
+$five_scrolloff:       $five_scrollstart + $screen_height_notpx;
+
+$six_before:          $five_scrollstart;
+$six-onscreen:        $five_scrolloff;
+$six_buffer:          $six_onscreen + 100;
+$six_scrollstart:     $six_onscreen + 900;
+$six_scrolloff:       $six_scrollstart + $screen_height_notpx;
+
+$seven_before:          $six_scrollstart;
+$seven-onscreen:        $six_scrolloff;
+$seven_buffer:          $seven_onscreen + 100;
+$seven_scrollstart:     $seven_onscreen + 900;
+$seven_scrolloff:       $seven_scrollstart + $screen_height_notpx;
+
+$eight_before:          $seven_scrollstart;
+$eight-onscreen:        $seven_scrolloff;
+$eight_buffer:          $eight_onscreen + 100;
+$eight_scrollstart:     $eight_onscreen + 900;
+$eight_scrolloff:       $eight_scrollstart + $screen_height_notpx;
+
+$nine_before:          $eight_scrollstart;
+$nine-onscreen:        $eight_scrolloff;
+$nine_buffer:          $nine_onscreen + 100;
+$nine_scrollstart:     $nine_onscreen + 900;
+$nine_scrolloff:       $nine_scrollstart + $screen_height_notpx;
+
+$ten_before:          $nine_scrollstart;
+$ten-onscreen:        $nine_scrolloff;
+$ten_buffer:          $ten_onscreen + 100;
+$ten_scrollstart:     $ten_onscreen + 900;
+$ten_scrolloff:       $ten_scrollstart + $screen_height_notpx;
+
+$eleven_before:          $ten_scrollstart;
+$eleven-onscreen:        $ten_scrolloff;
+$eleven_buffer:          $eleven_onscreen + 100;
+$eleven_scrollstart:     $eleven_onscreen + 900;
+$eleven_scrolloff:       $eleven_scrollstart + $screen_height_notpx;
+
+$last_before:           $eleven_scrollstart;
+$last-onscreen:         $eleven_scrolloff;
 $last_buffer:           $last_onscreen + 100;
 $last_scrollstart:      $last_onscreen + 900;
 
@@ -39,61 +87,123 @@ $last_scrollstart:      $last_onscreen + 900;
     
 #cover {
   -skrollr-animation-name:one-scroll; 
-  h1 {-skrollr-animation-name:one-bottom-to-top;}    
+  h1, h2, h3 {-skrollr-animation-name:one-bottom-to-top;}    
   }    
 
 #howto {
   -skrollr-animation-name:two-scroll;
-  h1 {-skrollr-animation-name:two-bottom-to-top;}   
+  h1, h2, h3 {-skrollr-animation-name:two-bottom-to-top;}   
   }  
-
-#story {}
   
 #empty {
   -skrollr-animation-name:three-scroll;  
-  h1 {-skrollr-animation-name:three-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:three-bottom-to-top;} 
+  }
+  
+#mother {
+  -skrollr-animation-name:four-scroll;  
+  h1, h2, h3 {-skrollr-animation-name:four-bottom-to-top;} 
+  }
+  
+#queen {
+  -skrollr-animation-name:five-scroll;  
+  h1, h2, h3 {-skrollr-animation-name:five-bottom-to-top;} 
+  } 
+  
+#hunstman {
+  -skrollr-animation-name:six-scroll;  
+  h1, h2, h3 {-skrollr-animation-name:six-bottom-to-top;} 
+  } 
+  
+#dwarves {
+  -skrollr-animation-name:seven-scroll;  
+  h1, h2, h3 {-skrollr-animation-name:seven-bottom-to-top;} 
+  } 
+  
+#king {
+  -skrollr-animation-name:eight-scroll;  
+  h1, h2, h3 {-skrollr-animation-name:eight-bottom-to-top;} 
+  } 
+  
+#sin {
+  -skrollr-animation-name:nine-scroll;  
+  h1, h2, h3 {-skrollr-animation-name:nine-bottom-to-top;} 
+  } 
+  
+#prince {
+  -skrollr-animation-name:ten-scroll;  
+  h1, h2, h3 {-skrollr-animation-name:ten-bottom-to-top;} 
+  }
+  
+#love {
+  -skrollr-animation-name:eleven-scroll;  
+  h1, h2, h3 {-skrollr-animation-name:eleven-bottom-to-top;} 
   }  
 
-#pageEnd {  
+#end {  
   -skrollr-animation-name:last-scroll; 
-  h1 {-skrollr-animation-name:last-bottom-to-top;}  
+  h1, h2, h3 {-skrollr-animation-name:last-bottom-to-top;}  
   }
-
+  
   
 @-skrollr-keyframes last-bottom-to-top {    
-  #{$last_onscreen} {
-    color: rgba(0,0,0,1);
-    top:500px;}
-  #{$last_scrollstart} {
-    color: rgba(255,255,255,1);
-    top:100px;}
+  #{$last_onscreen} { color: rgba(0,0,0,1); top:500px;}
+  #{$last_scrollstart} { color: rgba(255,255,255,1); top:100px;}
+  }
+  
+@-skrollr-keyframes eleven-bottom-to-top {  
+  #{$eleven_onscreen} {color: rgba(0,0,0,1); top:500px;}
+  #{$eleven_scrollstart} { color: rgba(255,255,255,1); top:100px;}
+  }
+  
+@-skrollr-keyframes ten-bottom-to-top {  
+  #{$ten_onscreen} {color: rgba(0,0,0,1); top:500px;}
+  #{$ten_scrollstart} { color: rgba(255,255,255,1); top:100px;}
+  }
+  
+@-skrollr-keyframes nine-bottom-to-top {  
+  #{$nine_onscreen} {color: rgba(0,0,0,1); top:500px;}
+  #{$nine_scrollstart} { color: rgba(255,255,255,1); top:100px;}
+  }
+  
+@-skrollr-keyframes eight-bottom-to-top {  
+  #{$eight_onscreen} {color: rgba(0,0,0,1); top:500px;}
+  #{$eight_scrollstart} { color: rgba(255,255,255,1); top:100px;}
+  }
+  
+@-skrollr-keyframes seven-bottom-to-top {  
+  #{$seven_onscreen} {color: rgba(0,0,0,1); top:500px;}
+  #{$seven_scrollstart} { color: rgba(255,255,255,1); top:100px;}
+  }
+  
+@-skrollr-keyframes six-bottom-to-top {  
+  #{$six_onscreen} {color: rgba(0,0,0,1); top:500px;}
+  #{$six_scrollstart} { color: rgba(255,255,255,1); top:100px;}
+  }
+  
+@-skrollr-keyframes five-bottom-to-top {  
+  #{$five_onscreen} {color: rgba(0,0,0,1); top:500px;}
+  #{$five_scrollstart} { color: rgba(255,255,255,1); top:100px;}
+  }
+  
+@-skrollr-keyframes four-bottom-to-top {  
+  #{$four_onscreen} {color: rgba(0,0,0,1); top:500px;}
+  #{$four_scrollstart} { color: rgba(255,255,255,1); top:100px;}
   }
   
 @-skrollr-keyframes three-bottom-to-top {  
-  #{$three_onscreen} {
-    color: rgba(0,0,0,1);
-    top:500px;}
-  #{$three_scrollstart} {
-    color: rgba(255,255,255,1);
-    top:100px;}
+  #{$three_onscreen} {color: rgba(0,0,0,1); top:500px;}
+  #{$three_scrollstart} { color: rgba(255,255,255,1); top:100px;}
   }
   
 @-skrollr-keyframes two-bottom-to-top {   
-  #{$two_onscreen} {
-    color: rgba(0,0,0,1);
-    top:500px;}
-  #{$two_scrollstart} {
-    color: rgba(255,255,255,1);
-    top:100px;}
+  #{$two_onscreen} { color: rgba(0,0,0,1); top:500px;}
+  #{$two_scrollstart} { color: rgba(255,255,255,1); top:100px;}
   }
   
 @-skrollr-keyframes one-bottom-to-top { 
-  #{$one_onscreen} {
-    color: rgba(0,0,0,1);
-    top:500px;}
-  #{$one_scrollstart} {
-    color: rgba(255,255,255,1);
-    top:100px;}
+  #{$one_onscreen} { color: rgba(0,0,0,1); top:500px;}
+  #{$one_scrollstart} { color: rgba(255,255,255,1); top:100px;} 
   }
   
 @-skrollr-keyframes last-scroll {    
@@ -102,6 +212,62 @@ $last_scrollstart:      $last_onscreen + 900;
   #{$last_scrollstart} {margin-top:0px;}
   }
   
+@-skrollr-keyframes eleven-scroll {    
+  #{$eleven_before} {margin-top:1024px}
+  #{$eleven_onscreen} {margin-top:0px;}
+  #{$eleven_scrollstart} {margin-top:0px;}
+  #{$eleven_scrolloff} {margin-top:-1024px;}
+  }
+
+@-skrollr-keyframes ten-scroll {    
+  #{$ten_before} {margin-top:1024px}
+  #{$ten_onscreen} {margin-top:0px;}
+  #{$ten_scrollstart} {margin-top:0px;}
+  #{$ten_scrolloff} {margin-top:-1024px;}
+  }
+
+@-skrollr-keyframes nine-scroll {    
+  #{$nine_before} {margin-top:1024px}
+  #{$nine_onscreen} {margin-top:0px;}
+  #{$nine_scrollstart} {margin-top:0px;}
+  #{$nine_scrolloff} {margin-top:-1024px;}
+  }
+  
+@-skrollr-keyframes eight-scroll {    
+  #{$eight_before} {margin-top:1024px}
+  #{$eight_onscreen} {margin-top:0px;}
+  #{$eight_scrollstart} {margin-top:0px;}
+  #{$eight_scrolloff} {margin-top:-1024px;}
+  }
+  
+@-skrollr-keyframes seven-scroll {    
+  #{$seven_before} {margin-top:1024px}
+  #{$seven_onscreen} {margin-top:0px;}
+  #{$seven_scrollstart} {margin-top:0px;}
+  #{$seven_scrolloff} {margin-top:-1024px;}
+  }
+  
+@-skrollr-keyframes six-scroll {    
+  #{$six_before} {margin-top:1024px}
+  #{$six_onscreen} {margin-top:0px;}
+  #{$six_scrollstart} {margin-top:0px;}
+  #{$six_scrolloff} {margin-top:-1024px;}
+  }
+  
+@-skrollr-keyframes five-scroll {    
+  #{$five_before} {margin-top:1024px}
+  #{$five_onscreen} {margin-top:0px;}
+  #{$five_scrollstart} {margin-top:0px;}
+  #{$five_scrolloff} {margin-top:-1024px;}
+  }
+  
+@-skrollr-keyframes four-scroll {    
+  #{$four_before} {margin-top:1024px}
+  #{$four_onscreen} {margin-top:0px;}
+  #{$four_scrollstart} {margin-top:0px;}
+  #{$four_scrolloff} {margin-top:-1024px;}
+  }
+
 @-skrollr-keyframes three-scroll {    
   #{$three_before} {margin-top:1024px}
   #{$three_onscreen} {margin-top:0px;}

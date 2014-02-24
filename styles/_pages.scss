@@ -11,22 +11,16 @@
 	
 #cover {
   margin-top:0px;
-  background-color: $page-color-light;  
-  background-color: aqua; 
   } 
 
 #howto {
-	margin-top:$screen-height-px;
-  background-color: $page-color-dark;
-  background-color: red; 
-  
+	margin-top:$screen-height-px;  
   .factoid {
     width: 300px;
     position: absolute;
     top:400px;
     right:0;  
     }
-      
   }
   
 
@@ -35,23 +29,15 @@
   margin:50px;
   position: relative;
   margin-top:$screen-height-px;
-  z-index: 1000;
-  
-  p {color:$story-color;}
-
-  background-color: blue;   
-  
+  z-index: 1000;  
+  p {color:$story-color;}    
   } 
   
 #empty {;
-  margin-top:$screen-height-px;
-  background-color: $page-color-light;    
-  background-color: lime; 
+  margin-top:$screen-height-px;  
   }
 
 
 #pageEnd {
 	margin-top:$screen-height-px;
-  background-color: $page-color-dark; 
-  background-color: violet;  
   }
