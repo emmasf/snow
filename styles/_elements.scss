@@ -90,6 +90,27 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
   top:0px;    
   img {width: 100%;}  
   }
+  
+.factoid {
+  width: 300px;
+  min-height: 20px;
+  position: absolute;
+  top:400px;
+  right:0; 
+  background-color: $factoid-color;
+  padding:15px;  
+  p {
+    padding:0;
+    margin:0;
+    font-family: $sans-type;
+    }  
+
+  }
+  
+.closed p {display: none;}
+.open p {display: block;} 
+  
+
 
 .back {z-index:1 !important;}
 .middle {z-index:25 !important;}

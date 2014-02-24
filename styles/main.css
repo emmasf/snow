@@ -542,6 +542,25 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
   .cutout img {
     width: 100%; }
 
+.factoid {
+  width: 300px;
+  min-height: 20px;
+  position: absolute;
+  top: 400px;
+  right: 0;
+  background-color: rgba(228, 58, 0, 0.8);
+  padding: 15px; }
+  .factoid p {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, serif; }
+
+.closed p {
+  display: none; }
+
+.open p {
+  display: block; }
+
 .back {
   z-index: 1 !important; }
 
@@ -766,7 +785,7 @@ h3 {
     margin-top: 500px; }
 
   21364 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes eleven-title-transform {
@@ -775,7 +794,7 @@ h3 {
     margin-top: 500px; }
 
   19440 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes ten-title-transform {
@@ -784,7 +803,7 @@ h3 {
     margin-top: 500px; }
 
   17516 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes nine-title-transform {
@@ -793,7 +812,7 @@ h3 {
     margin-top: 500px; }
 
   15592 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes eight-title-transform {
@@ -802,7 +821,7 @@ h3 {
     margin-top: 500px; }
 
   13668 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes seven-title-transform {
@@ -811,7 +830,7 @@ h3 {
     margin-top: 500px; }
 
   11744 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes six-title-transform {
@@ -820,7 +839,7 @@ h3 {
     margin-top: 500px; }
 
   9820 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes five-title-transform {
@@ -829,7 +848,7 @@ h3 {
     margin-top: 500px; }
 
   7896 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes four-title-transform {
@@ -838,7 +857,7 @@ h3 {
     margin-top: 500px; }
 
   5972 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes three-title-transform {
@@ -847,7 +866,7 @@ h3 {
     margin-top: 500px; }
 
   4048 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes two-title-transform {
@@ -856,7 +875,7 @@ h3 {
     margin-top: 500px; }
 
   2124 {
-    color: red;
+    color: rgba(228, 58, 0, 0.8);
     margin-top: 100px; } }
 
 @-skrollr-keyframes one-title-transform {

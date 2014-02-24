@@ -150,58 +150,58 @@ $last_scrollstart:      $last_onscreen + 900;
   
   
 @-skrollr-keyframes last-title-transform {    
-  #{$last_onscreen} { color: rgba(0,0,0,1); margin-top:500px;}
-  #{$last_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$last_onscreen} { color: $headline-color; margin-top:500px;}
+  #{$last_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes eleven-title-transform {  
-  #{$eleven_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
-  #{$eleven_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$eleven_onscreen} {color: $headline-color; margin-top:500px;}
+  #{$eleven_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes ten-title-transform {  
-  #{$ten_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
-  #{$ten_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$ten_onscreen} {color: $headline-color; margin-top:500px;}
+  #{$ten_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes nine-title-transform {  
-  #{$nine_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
-  #{$nine_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$nine_onscreen} {color: $headline-color; margin-top:500px;}
+  #{$nine_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes eight-title-transform {  
-  #{$eight_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
-  #{$eight_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$eight_onscreen} {color: $headline-color; margin-top:500px;}
+  #{$eight_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes seven-title-transform {  
-  #{$seven_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
-  #{$seven_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$seven_onscreen} {color: $headline-color; margin-top:500px;}
+  #{$seven_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes six-title-transform {  
-  #{$six_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
-  #{$six_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$six_onscreen} {color: $headline-color; margin-top:500px;}
+  #{$six_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes five-title-transform {  
-  #{$five_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
-  #{$five_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$five_onscreen} {color: $headline-color; margin-top:500px;}
+  #{$five_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes four-title-transform {  
-  #{$four_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
-  #{$four_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$four_onscreen} {color: $headline-color; margin-top:500px;}
+  #{$four_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes three-title-transform {  
-  #{$three_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
-  #{$three_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$three_onscreen} {color: $headline-color; margin-top:500px;}
+  #{$three_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes two-title-transform {   
-  #{$two_onscreen} { color: rgba(0,0,0,1); margin-top:500px;}
-  #{$two_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
+  #{$two_onscreen} { color: $headline-color; margin-top:500px;}
+  #{$two_scrollstart} { color: $red; margin-top:100px;}
   }
   
 @-skrollr-keyframes one-title-transform { 

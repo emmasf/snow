@@ -25,6 +25,10 @@
 	  
 	<div id="howto" class="page">
 	  <h3>Let's begin.</h3>
+	  <div class="factoid closed" id="factoid01">
+      <p>Elements like this one reveal new and exciting information 
+      about the story.</p>
+     </div>
 	 <span>
 	    <img class="tap-image" src="img/hand-white.png"></a>
       <img class="tap-image hidden" id="hand" src="img/hand.png"></a>
@@ -226,18 +230,11 @@
 	<!-- JQuery please god don't conflict with skrollr -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-<!--
-<script>
-  $('.img-button').click(function() { 
-    $('#hand').toggle();
-    $('#eyes').toggle();
-    $('#crown').toggle();
-    $('#knife').toggle();
-    $('#crowd').toggle();
-    $('#death').toggle();
-  });
+<script type="text/javascript">
+document.getElementById('factoid01').onclick = function() {  
+  var className = ' ' + factoid01.className + ' ';  
+  if ( ~className.indexOf(' open ') ) { this.className = className.replace(' open ', ' ');} else { this.className += ' open';}}
 </script>
--->
 
 <script>  $('#img-button-hand').click(function() { $('#hand').toggle(); }); </script>
 <script>  $('#img-button-eyes').click(function() { $('#eyes').toggle(); }); </script>

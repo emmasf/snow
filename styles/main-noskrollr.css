@@ -542,6 +542,25 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
   .cutout img {
     width: 100%; }
 
+.factoid {
+  width: 300px;
+  min-height: 20px;
+  position: absolute;
+  top: 400px;
+  right: 0;
+  background-color: rgba(228, 58, 0, 0.8);
+  padding: 15px; }
+  .factoid p {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, serif; }
+
+.closed p {
+  display: none; }
+
+.open p {
+  display: block; }
+
 .back {
   z-index: 1 !important; }
 
