@@ -201,8 +201,8 @@ $last_scrollstart:      $last_onscreen + 900;
   }
   
 @-skrollr-keyframes one-title-transform { 
-  #{$one_scrollstart} {margin-top:100px;} 
-  #{$one_scrollstart} {margin-top:0px;} 
+  #{$one_scrollstart} {margin-top:150px;} 
+  #{$one_scrolloff} {margin-top:-100px;} 
   }
   
 @-skrollr-keyframes last-scroll {    
