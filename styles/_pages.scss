@@ -21,19 +21,22 @@
 
 #howto {
 	margin-top:-5000px;  
-  .img-button-hand {  
-    top: 999px; 
-    left: inherit; }
+  }
+  
+#img-button-hand {  
+  top: 600px; 
+  left: 45px; 
   }
 
   
 #empty {
   margin-top:-5000px;  
-  .img-button-eyes {  
-    top: 999px; 
-    left: inherit; }
   }
 
+#img-button-eyes {  
+  top: 999px; 
+  left: inherit;
+  }     
   
 #mother {
   margin-top:-5000px;
@@ -41,24 +44,30 @@
   
 #queen {
   margin-top:-5000px;
-  .img-button-crown {  
-    top: 999px; 
-    left: inherit; }
-  } 
+  }
+  
+#img-button-crown {  
+  top: 999px; 
+  left: inherit;
+  }  
   
 #hunstman {
   margin-top:-5000px;
-  .img-button-knife {  
-    top: 999px; 
-    left: inherit; }
   } 
   
+#img-button-knife {  
+  top: 999px; 
+  left: inherit;
+  }
+    
 #dwarves {
   margin-top:-5000px;
-  .img-button-crowd {  
-    top: 999px; 
-    left: inherit; }
   } 
+  
+#img-button-crowd {  
+  top: 999px; 
+  left: inherit; 
+  }
   
 #king {
   margin-top:-5000px;
@@ -69,10 +78,12 @@
   } 
   
 #prince {
-  margin-top:-5000px;
-  .img-button-death {  
-    top: inherit; 
-    left: inherit; }
+  margin-top:-5000px; 
+  }
+  
+#img-button-death {  
+  top: inherit; 
+  left: inherit;
   }
   
 #love { 
