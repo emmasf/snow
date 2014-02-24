@@ -301,7 +301,7 @@ $last_scrollstart:      $last_onscreen + 900;
   
 @-skrollr-keyframes story-button-scroll {    
   #{$one_scrollstart} { top: 1049px; }
-  #{$two-onscreen} { top: 25px }
+  #{$one_scrolloff} { top: 25px }
   }
   
   

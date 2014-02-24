@@ -512,8 +512,9 @@ body {
   background-color: rgba(228, 58, 0, 0.8); }
 
 #story-button {
+  position: fixed;
   top: 25px;
-  left: 743px;
+  left: 700px;
   font-size: 24px;
   background-color: #2494d1; }
 
