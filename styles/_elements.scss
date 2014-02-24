@@ -31,6 +31,7 @@ body {
   
 .story {
   position:absolute;
+  width: 300px;
   top: 200px;
   left:50px;
   z-index: 4000;
@@ -45,7 +46,6 @@ body {
   font-weight: 900;
   }
 
-
 .img-button {
   top: 800px; 
   left: 60px;  
@@ -53,17 +53,18 @@ body {
   background-color: $red;
   }
   
-#story-button {
+#story-button a {
   position: fixed;
   top: 25px; 
   left: 700px;  
   font-size: 24px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   color: $blue;
   background: rgba(200,200,200,0.75);
+  cursor: pointer;
   }
   
-#story-button:active, #story-button:hover, #story-button:press, #story-button:focus {
+#story-button a:active, #story-button a:hover, #story-button a:press, #story-button a:focus {
   color: #fff;
   background: $blue;
   }
