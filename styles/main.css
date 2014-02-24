@@ -476,10 +476,10 @@ body {
   border-bottom: 1px solid white; }
 
 .page:nth-child(odd) {
-  background: white url("../img/backgroundx.png"); }
+  background: #fff; }
 
 .page:nth-child(even) {
-  background: white url("../img/backgroundx.png"); }
+  background: white; }
 
 .jumpto {
   bottom: 25px;
@@ -724,7 +724,7 @@ h4 {
     top: 500px; }
 
   22064 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes eleven-bottom-to-top {
@@ -733,7 +733,7 @@ h4 {
     top: 500px; }
 
   20140 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes ten-bottom-to-top {
@@ -742,7 +742,7 @@ h4 {
     top: 500px; }
 
   18216 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes nine-bottom-to-top {
@@ -751,7 +751,7 @@ h4 {
     top: 500px; }
 
   16292 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes eight-bottom-to-top {
@@ -760,7 +760,7 @@ h4 {
     top: 500px; }
 
   14368 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes seven-bottom-to-top {
@@ -769,7 +769,7 @@ h4 {
     top: 500px; }
 
   12444 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes six-bottom-to-top {
@@ -778,7 +778,7 @@ h4 {
     top: 500px; }
 
   10520 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes five-bottom-to-top {
@@ -787,7 +787,7 @@ h4 {
     top: 500px; }
 
   8596 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes four-bottom-to-top {
@@ -796,7 +796,7 @@ h4 {
     top: 500px; }
 
   6672 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes three-bottom-to-top {
@@ -805,7 +805,7 @@ h4 {
     top: 500px; }
 
   4748 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes two-bottom-to-top {
@@ -814,7 +814,7 @@ h4 {
     top: 500px; }
 
   2824 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes one-bottom-to-top {
@@ -823,7 +823,7 @@ h4 {
     top: 500px; }
 
   900 {
-    color: white;
+    color: red;
     top: 100px; } }
 
 @-skrollr-keyframes last-scroll {

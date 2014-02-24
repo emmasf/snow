@@ -476,10 +476,10 @@ body {
   border-bottom: 1px solid white; }
 
 .page:nth-child(odd) {
-  background: white url("../img/backgroundx.png"); }
+  background: #fff; }
 
 .page:nth-child(even) {
-  background: white url("../img/backgroundx.png"); }
+  background: white; }
 
 .jumpto {
   bottom: 25px;

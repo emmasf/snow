@@ -16,8 +16,8 @@ body {
   border-bottom: 1px solid $page-divider;    	
 	}
 	
-.page:nth-child(odd) {background: #fff url("../img/backgroundx.png");}
-.page:nth-child(even) {background: $page-color-light url("../img/backgroundx.png");}
+.page:nth-child(odd) {background: #fff;}
+.page:nth-child(even) {background: $page-color-light;}
 	
 .jumpto {
   bottom:25px;
