@@ -483,6 +483,13 @@ body {
   background-color: white;
   border-bottom: 10px solid #ebebeb; }
 
+.hidden-white {
+  display: none; }
+
+.tap-image {
+  position: absolute;
+  width: 768px; }
+
 /* .page:nth-child(odd) {border-bottom: 10px solid $page-color-dark;} */
 .jumpto {
   bottom: 25px;

@@ -16,7 +16,16 @@ body {
 	height:$page-height-px;		
 	background-color: $page-color-light;
 	border-bottom: 10px solid $page-divider;	
-	}
+  }
+
+.hidden-white {
+  display: none;
+  }
+  
+.tap-image {
+  position:absolute;
+  width: $screen-width-px
+  }
 	
 /* .page:nth-child(odd) {border-bottom: 10px solid $page-color-dark;} */
 	
