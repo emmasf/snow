@@ -83,6 +83,9 @@ $last_scrollstart:      $last_onscreen + 900;
 #progress {
   -skrollr-animation-name:sk-progress;  
   }
+#story-button {
+  -skrollr-animation-name:story-button-scroll; 
+  }   
     
 #cover {
   -skrollr-animation-name:one-scroll; 
@@ -293,6 +296,12 @@ $last_scrollstart:      $last_onscreen + 900;
     background:blue;}
   #{$progress_section_end} {
     background:lime;}
+  }
+  
+  
+@-skrollr-keyframes story-button-scroll {    
+  #{$one_scrollstart} { margin-top: 1049px; }
+  #{$two-onscreen} { margin-top: 25px }
   }
   
   

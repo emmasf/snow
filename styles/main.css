@@ -511,7 +511,7 @@ body {
   font-size: 24px;
   background-color: rgba(228, 58, 0, 0.8); }
 
-.story-button {
+#story-button {
   top: 25px;
   right: 25px;
   font-size: 24px;
@@ -682,6 +682,9 @@ h3 {
 
 #progress {
   -skrollr-animation-name: sk-progress; }
+
+#story-button {
+  -skrollr-animation-name: story-button-scroll; }
 
 #cover {
   -skrollr-animation-name: one-scroll; }
@@ -1008,3 +1011,10 @@ h3 {
 
   400 {
     background: lime; } }
+
+@-skrollr-keyframes story-button-scroll {
+  200 {
+    margin-top: 1049px; }
+
+  1224 {
+    margin-top: 25px; } }
