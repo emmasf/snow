@@ -493,7 +493,7 @@ body {
 
 .story {
   position: absolute;
-  margin-top: 200px;
+  top: 200px;
   left: 50px;
   z-index: 4000; }
 
@@ -513,7 +513,7 @@ body {
 
 #story-button {
   top: 25px;
-  right: 25px;
+  left: 743px;
   font-size: 24px;
   background-color: #2494d1; }
 
@@ -1014,7 +1014,7 @@ h3 {
 
 @-skrollr-keyframes story-button-scroll {
   200 {
-    margin-top: 1049px; }
+    top: 1049px; }
 
   1224 {
-    margin-top: 25px; } }
+    top: 25px; } }
