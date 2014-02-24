@@ -857,11 +857,13 @@ h3 {
 @-skrollr-keyframes three-title-transform {
   3148 {
     color: black;
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
 
   4048 {
     color: red;
-    transform: rotate(90deg); } }
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg); } }
 
 @-skrollr-keyframes two-title-transform {
   1224 {
