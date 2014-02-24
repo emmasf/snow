@@ -498,23 +498,27 @@ body {
     text-decoration: none;
     text-align: right; }
 
+/*
 .button .closed {
-  background-color: #2494d1;
-  width: 33.333%;
-  height: 90px;
-  left: 33.333%;
-  top: 450px; }
-
+  background-color: $button-color;
+  width:33.333%;
+  height:90px;
+  left:33.333%;
+  top:450px;
+  }
+*/
+/*
 .svg-draw {
-  fill: none;
-  stroke-width: 7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 4;
-  stroke-opacity: 1;
-  stroke-dasharray: 6000;
-  stroke-dashoffset: 0; }
-
+  fill:none;
+  stroke-width:7;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:4;
+  stroke-opacity:1;
+  stroke-dasharray:6000;
+  stroke-dashoffset:0;      
+  }
+*/
 .factoid {
   background-color: rgba(231, 41, 0, 0.75);
   padding: 15px; }
@@ -530,8 +534,9 @@ body {
   display: block; }
 
 .cutout {
-  position: relative;
   top: 0px; }
+  .cutout img {
+    width: 100%; }
 
 .back {
   z-index: 1 !important; }

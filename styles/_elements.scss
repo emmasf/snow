@@ -40,14 +40,17 @@ body {
   
   }
   
+/*
 .button .closed {
   background-color: $button-color;
   width:33.333%;
   height:90px;
   left:33.333%;
   top:450px;
-  }  
+  }
+*/  
 
+/*
 .svg-draw {
   fill:none;
   stroke-width:7;
@@ -58,28 +61,31 @@ body {
   stroke-dasharray:6000;
   stroke-dashoffset:0;      
   }
+*/
   
-.factoid {
-  background-color: $factoid-color;
-  padding:15px;  
-  p {
-    padding:0;
-    margin:0;
-    font-family: $sans-type;
-    }  
-  }
-  
-.hidden {
-  p {display: none;}
-  }
-  
-.revealed {
-  p {display: block;}
-  }
+  .factoid {
+    background-color: $factoid-color;
+    padding:15px;  
+    p {
+      padding:0;
+      margin:0;
+      font-family: $sans-type;
+      }  
+    }
+    
+  .hidden {
+    p {display: none;}
+    }
+    
+  .revealed {
+    p {display: block;}
+    }
       
 .cutout {
-  position:relative;
   top:0px;  
+  
+  img {width: 100%;}
+  
   }
 
 .back {z-index:1 !important;}
