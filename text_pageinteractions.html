@@ -30,19 +30,26 @@
 
 
 <div class="tester-page">
-<a class="toggle"><img class="tap-image" src="img/queen.png"></a>
-<a class="toggle"><img class="tap-image hidden-white" id="crown" src="img/queen-crown.png"></a>
+<a class="toggle-two"><img class="tap-image" src="img/queen.png"></a>
+<a class="toggle-two"><img class="tap-image hidden-white" id="crown" src="img/queen-crown.png"></a>
 </div>
 
 
 <!--JS schtuff ----->
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!--
 <script>
   $('.toggle').click(function() {
-$('#hand').toggle();
+    $('#hand').toggle();
     $('#crown').toggle();
     });
+</script>
+-->
+
+<script>
+  $('.toggle').click(function() { $('#hand').toggle();});
+  $('.toggle-two').click(function() { $('#crown').toggle();});
 </script>
 
 
