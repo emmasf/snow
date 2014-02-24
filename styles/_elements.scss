@@ -3,13 +3,12 @@
 
 html {
   background-color: #000;
-  height: 100%;
   }
   
 body {  
   width:$screen-width-px;
+  height:$screen-height-px;
   background-color: pink;
-  height: 100%;
   }
   
 .page {

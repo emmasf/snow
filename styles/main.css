@@ -470,13 +470,12 @@ table {
   box-sizing: border-box; }
 
 html {
-  background-color: #000;
-  height: 100%; }
+  background-color: #000; }
 
 body {
   width: 768px;
-  background-color: pink;
-  height: 100%; }
+  height: 1024px;
+  background-color: pink; }
 
 .page {
   width: 768px;
