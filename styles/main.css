@@ -468,8 +468,7 @@ html {
 
 body {
   width: 768px;
-  height: 1024px;
-  background-color: pink; }
+  height: 1024px; }
 
 .page {
   width: 768px;
@@ -477,8 +476,14 @@ body {
   background: url("../img/backgroundx.png");
   border-bottom: 1px solid white; }
 
+.page:nth-child(even) {
+  background: #ebebeb; }
+
 .jumpto {
   bottom: 25px;
+  right: 25px;
+  position: absolute;
+  border: 25px;
   right: 25px; }
   .jumpto a {
     padding: 10px;
