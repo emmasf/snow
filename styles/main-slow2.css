@@ -473,11 +473,13 @@ body {
 .page {
   width: 768px;
   height: 1024px;
-  background: url("../img/backgroundx.png");
   border-bottom: 1px solid white; }
 
 .page:nth-child(even) {
-  background: #ebebeb; }
+  background: white url("../img/backgroundx.png"); }
+
+.page:nth-child(even) {
+  background: white url("../img/backgroundx.png"); }
 
 .jumpto {
   bottom: 25px;

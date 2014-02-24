@@ -12,12 +12,12 @@ body {
   
 .page {
   width:$screen-width-px;
-	height:$page-height-px;
-	background: url("../img/backgroundx.png");		
+	height:$page-height-px;		
   border-bottom: 1px solid $page-divider;    	
 	}
 	
-.page:nth-child(even) {background: $page-color-dark;}
+.page:nth-child(even) {background: #fff url("../img/backgroundx.png");}
+.page:nth-child(even) {background: $page-color-light url("../img/backgroundx.png");}
 	
 .jumpto {
   bottom:25px;
