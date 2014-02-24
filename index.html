@@ -28,7 +28,7 @@
 	 <span>
 	    <img class="tap-image" src="img/hand.png"></a>
       <img class="tap-image hidden-white" id="hand" src="img/hand-empty.png"></a>
-      <a class="button img-button">yes</a>
+      <a class="button img-button img-button-hand">yes</a>
       </span>
     <div class="story hidden" id="howto-story">
       <p>Tap on the a button to read the story.</p>
@@ -41,7 +41,8 @@
 	  <span>
 	    <img class="tap-image" src="img/snowwhite.png"></a>
       <img class="tap-image hidden-white" id="eyes" src="img/snowwhite-eyes.png"></a>
-      <a class="button img-button">yes</a>
+      <a class="button img-button img-button-eyes">yes</a>
+      <a class="button img-button img-button-eyes img-button-eyes-on hidden ">no</a>
       </span>
     <div class="story hidden" id="empty-story">
       <p>Once upon a time,</p>
@@ -67,7 +68,7 @@
 	 <span>
 	    <img class="tap-image" src="img/queen-crown.png"></a>
       <img class="tap-image hidden-white" id="crown" src="img/queen.png"></a>
-      <a class="button img-button">yes</a>
+      <a class="button img-button img-button-crown">yes</a>
       </span>	 
     <div class="story hidden" id="queen-story">
       <p>The new Queen was vain and cruel, as cold as the last was warm. She possessed a magic mirror 
@@ -88,7 +89,7 @@
     <span>
 	    <img class="tap-image" src="img/hunstman.png"></a>
       <img class="tap-image hidden-white" id="knife" src="img/hunstman_phallus.png"></a>
-      <a class="button img-button">yes</a>
+      <a class="button img-button img-button img-button-knife">yes</a>
       </span>	 
     <div class="story hidden" id="hunstman-story">
       <p>The servant obeyed and took Little Snow White to the forest to pick flowers. When they were far from 
@@ -107,7 +108,7 @@
     <span>
 	    <img class="tap-image" src="img/dwarves.png"></a>
       <img class="tap-image hidden-white" id="crowd" src="img/dwarves-crowd.png"></a>
-      <a class="button img-button">yes</a>
+      <a class="button img-button img-button-crowd">yes</a>
       </span>	      
     <div class="story hidden" id="dwarves-story">
       <p>Snow White fled into the woods, branches tearing at her dress and tears running down her face. Among 
@@ -161,7 +162,7 @@
     <span>
 	    <img class="tap-image" src="img/coffin.png"></a>
       <img class="tap-image hidden-white" id="death" src="img/coffin-death.png"></a>
-      <a class="button img-button">yes</a>
+      <a class="button img-button img-button-death">yes</a>
       </span>	
     <span>
       <div class="story hidden" id="prince-story">
@@ -226,6 +227,7 @@
 	<!-- JQuery please god don't conflict with skrollr -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
+<!--
 <script>
   $('.img-button').click(function() { 
     $('#hand').toggle();
@@ -235,6 +237,17 @@
     $('#crowd').toggle();
     $('#death').toggle();
   });
+</script>
+-->
+
+<script>
+  $('.img-button img-button-hand').click(function() { $('#hand').toggle(); });
+  $('.img-button img-button-eyes').click(function() { $('#eyes').toggle(); });
+  $('.img-button img-button-eyes').click(function() { $('.image-button-eyes').toggle(); });
+  $('.img-button img-button-crown').click(function() { $('#crown').toggle(); });
+  $('.img-button img-button-knife').click(function() { $('#knife').toggle(); });
+  $('.img-button img-button-crowd').click(function() { $('#crowd').toggle(); });
+  $('.img-button img-button-death').click(function() { $('#death').toggle(); });
 </script>
 
 <script>

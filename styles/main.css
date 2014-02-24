@@ -644,26 +644,36 @@ h3 {
 
 #howto {
   margin-top: -5000px; }
-  #howto .factoid {
-    width: 300px;
-    position: absolute;
-    top: 400px;
-    right: 0; }
+  #howto .img-button-hand {
+    top: inherit;
+    left: inherit; }
 
 #empty {
   margin-top: -5000px; }
+  #empty .img-button-eyes {
+    top: inherit;
+    left: inherit; }
 
 #mother {
   margin-top: -5000px; }
 
 #queen {
   margin-top: -5000px; }
+  #queen .img-button-crown {
+    top: inherit;
+    left: inherit; }
 
 #hunstman {
   margin-top: -5000px; }
+  #hunstman .img-button-knife {
+    top: inherit;
+    left: inherit; }
 
 #dwarves {
   margin-top: -5000px; }
+  #dwarves .img-button-crowd {
+    top: inherit;
+    left: inherit; }
 
 #king {
   margin-top: -5000px; }
@@ -673,6 +683,9 @@ h3 {
 
 #prince {
   margin-top: -5000px; }
+  #prince .img-button-death {
+    top: inherit;
+    left: inherit; }
 
 #love {
   margin-top: -5000px; }
