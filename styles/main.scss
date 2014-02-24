@@ -95,14 +95,8 @@ $last_scrollstart:      $last_onscreen + 900;
 
 #howto {
   -skrollr-animation-name:two-scroll;
-  h1, h2, h3 {-skrollr-animation-name:two-title-transform;}   
-  } 
-  
-#howto {
-  -skrollr-animation-name:two-scroll;
   h3 {-skrollr-animation-name:two-title-transform;}   
-  }  
-
+  } 
   
 #empty {
   -skrollr-animation-name:three-scroll;  

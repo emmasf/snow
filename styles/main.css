@@ -715,11 +715,6 @@ h3 {
 
 #howto {
   -skrollr-animation-name: two-scroll; }
-  #howto h1, #howto h2, #howto h3 {
-    -skrollr-animation-name: two-title-transform; }
-
-#howto {
-  -skrollr-animation-name: two-scroll; }
   #howto h3 {
     -skrollr-animation-name: two-title-transform; }
 
