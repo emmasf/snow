@@ -501,7 +501,6 @@ body {
 .button {
   position: absolute;
   z-index: 5000;
-  padding: 10px;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   font-weight: 900; }
@@ -510,7 +509,10 @@ body {
   top: 800px;
   left: 60px;
   font-size: 24px;
-  background-color: rgba(228, 58, 0, 0.8); }
+  background-image: url("../img/img-open.png");
+  /*   background-color: $red; */
+  width: 80px;
+  height: 50px; }
 
 #story-button {
   position: fixed;
@@ -638,14 +640,14 @@ h3 {
 
 #img-button-hand {
   top: 600px;
-  left: 45px; }
+  left: 105px; }
 
 #empty {
   margin-top: -5000px; }
 
 #img-button-eyes {
-  top: 999px;
-  left: inherit; }
+  top: 700px;
+  left: 780px; }
 
 #mother {
   margin-top: -5000px; }
@@ -654,22 +656,22 @@ h3 {
   margin-top: -5000px; }
 
 #img-button-crown {
-  top: 999px;
-  left: inherit; }
+  top: 800px;
+  left: 530px; }
 
 #hunstman {
   margin-top: -5000px; }
 
 #img-button-knife {
-  top: 999px;
-  left: inherit; }
+  top: 900px;
+  left: 45px; }
 
 #dwarves {
   margin-top: -5000px; }
 
 #img-button-crowd {
-  top: 999px;
-  left: inherit; }
+  top: 650px;
+  left: 110px; }
 
 #king {
   margin-top: -5000px; }
@@ -681,8 +683,8 @@ h3 {
   margin-top: -5000px; }
 
 #img-button-death {
-  top: inherit;
-  left: inherit; }
+  top: 560px;
+  left: 645px; }
 
 #love {
   margin-top: -5000px; }
