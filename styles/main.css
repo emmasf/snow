@@ -542,41 +542,6 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
   .cutout img {
     width: 100%; }
 
-.factoid {
-  width: 300px;
-  min-height: 20px;
-  position: absolute;
-  top: 400px;
-  right: 0;
-  background-color: rgba(228, 58, 0, 0.8);
-  padding: 15px; }
-  .factoid p {
-    padding: 0;
-    margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, serif; }
-
-.closed p {
-  display: none; }
-
-.open p {
-  display: block; }
-
-.svg-draw {
-  fill: none;
-  stroke-width: 7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 4;
-  stroke-opacity: 1;
-  stroke-dasharray: 6000;
-  stroke-dashoffset: 0; }
-
-.drawing {
-  position: absolute;
-  z-index: 500;
-  top: 300px;
-  left: 100px; }
-
 .back {
   z-index: 1 !important; }
 
@@ -801,7 +766,7 @@ h3 {
     margin-top: 500px; }
 
   21364 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes eleven-title-transform {
@@ -810,7 +775,7 @@ h3 {
     margin-top: 500px; }
 
   19440 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes ten-title-transform {
@@ -819,7 +784,7 @@ h3 {
     margin-top: 500px; }
 
   17516 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes nine-title-transform {
@@ -828,7 +793,7 @@ h3 {
     margin-top: 500px; }
 
   15592 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes eight-title-transform {
@@ -837,7 +802,7 @@ h3 {
     margin-top: 500px; }
 
   13668 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes seven-title-transform {
@@ -846,7 +811,7 @@ h3 {
     margin-top: 500px; }
 
   11744 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes six-title-transform {
@@ -855,7 +820,7 @@ h3 {
     margin-top: 500px; }
 
   9820 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes five-title-transform {
@@ -864,7 +829,7 @@ h3 {
     margin-top: 500px; }
 
   7896 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes four-title-transform {
@@ -873,7 +838,7 @@ h3 {
     margin-top: 500px; }
 
   5972 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes three-title-transform {
@@ -882,7 +847,7 @@ h3 {
     margin-top: 500px; }
 
   4048 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes two-title-transform {
@@ -891,7 +856,7 @@ h3 {
     margin-top: 500px; }
 
   2124 {
-    color: rgba(228, 58, 0, 0.8);
+    color: red;
     margin-top: 100px; } }
 
 @-skrollr-keyframes one-title-transform {

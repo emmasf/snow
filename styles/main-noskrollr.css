@@ -542,41 +542,6 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
   .cutout img {
     width: 100%; }
 
-.factoid {
-  width: 300px;
-  min-height: 20px;
-  position: absolute;
-  top: 400px;
-  right: 0;
-  background-color: rgba(228, 58, 0, 0.8);
-  padding: 15px; }
-  .factoid p {
-    padding: 0;
-    margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, serif; }
-
-.closed p {
-  display: none; }
-
-.open p {
-  display: block; }
-
-.svg-draw {
-  fill: none;
-  stroke-width: 7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 4;
-  stroke-opacity: 1;
-  stroke-dasharray: 6000;
-  stroke-dashoffset: 0; }
-
-.drawing {
-  position: absolute;
-  z-index: 500;
-  top: 300px;
-  left: 100px; }
-
 .back {
   z-index: 1 !important; }
 
