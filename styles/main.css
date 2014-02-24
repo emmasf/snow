@@ -734,6 +734,8 @@ h3 {
   -skrollr-animation-name: two-scroll; }
   #howto h3 {
     -skrollr-animation-name: two-title-transform; }
+  #howto #factoid01 {
+    -skrollr-animation-name: factoid01-pulse; }
 
 #empty {
   -skrollr-animation-name: three-scroll; }
@@ -784,6 +786,13 @@ h3 {
   -skrollr-animation-name: last-scroll; }
   #end h2 {
     -skrollr-animation-name: last-title-transform; }
+
+@-skrollr-keyframes factoid01-pulse {
+  1224 {
+    background-color: rgba(228, 57, 0, 0.8); }
+
+  2124 {
+    background-color: rgba(228, 57, 0, 0.8); } }
 
 @-skrollr-keyframes last-title-transform {
   20464 {

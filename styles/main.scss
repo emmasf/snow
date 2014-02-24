@@ -96,6 +96,7 @@ $last_scrollstart:      $last_onscreen + 900;
 #howto {
   -skrollr-animation-name:two-scroll;
   h3 {-skrollr-animation-name:two-title-transform;}   
+  #factoid01  {-skrollr-animation-name:factoid01-pulse;}
   } 
   
 #empty {
@@ -148,6 +149,12 @@ $last_scrollstart:      $last_onscreen + 900;
   h2 {-skrollr-animation-name:last-title-transform;}  
   }
   
+
+
+@-skrollr-keyframes factoid01-pulse {   
+  #{$two_onscreen} { background-color: $red;}
+  #{$two_scrollstart} { background-color: $red;}
+  }
   
 @-skrollr-keyframes last-title-transform {    
   #{$last_onscreen} { color: rgba(0,0,0,1); margin-top:500px;}
