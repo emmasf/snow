@@ -718,6 +718,11 @@ h3 {
   #howto h1, #howto h2, #howto h3 {
     -skrollr-animation-name: two-title-transform; }
 
+#howto {
+  -skrollr-animation-name: two-scroll; }
+  #howto h3 {
+    -skrollr-animation-name: two-title-transform; }
+
 #empty {
   -skrollr-animation-name: three-scroll; }
   #empty h1, #empty h2, #empty h3 {
@@ -852,11 +857,11 @@ h3 {
 @-skrollr-keyframes three-title-transform {
   3148 {
     color: black;
-    margin-top: 500px; }
+    transform: rotate(0deg); }
 
   4048 {
     color: red;
-    margin-top: 100px; } }
+    transform: rotate(90deg); } }
 
 @-skrollr-keyframes two-title-transform {
   1224 {
