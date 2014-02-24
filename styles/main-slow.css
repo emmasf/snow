@@ -480,13 +480,11 @@ body {
 .page {
   width: 768px;
   height: 1024px;
+  background-color: white;
   /*   border-bottom: 2px solid $page-divider;  */ }
 
 .page:nth-child(odd) {
-  background-color: white; }
-
-.page:nth-child(even) {
-  background-color: #ebebeb; }
+  border: 10px solid #ebebeb; }
 
 .jumpto {
   bottom: 25px;
