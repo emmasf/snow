@@ -15,10 +15,10 @@ body {
   width:$screen-width-px;
 	height:$page-height-px;		
 	background-color: $page-color-light;
-/*   border-bottom: 2px solid $page-divider;  */   	
+	border-bottom: 10px solid $page-divider;	
 	}
 	
-.page:nth-child(odd) {border: 10px solid $page-color-dark;}
+/* .page:nth-child(odd) {border-bottom: 10px solid $page-color-dark;} */
 	
 .jumpto {
   bottom:25px;

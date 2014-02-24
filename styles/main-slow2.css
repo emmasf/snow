@@ -481,11 +481,9 @@ body {
   width: 768px;
   height: 1024px;
   background-color: white;
-  /*   border-bottom: 2px solid $page-divider;  */ }
+  border-bottom: 10px solid #ebebeb; }
 
-.page:nth-child(odd) {
-  border: 10px solid #ebebeb; }
-
+/* .page:nth-child(odd) {border-bottom: 10px solid $page-color-dark;} */
 .jumpto {
   bottom: 25px;
   right: 25px;
@@ -629,8 +627,8 @@ h3 {
   background: #ffc400;
   z-index: 200; }
 
-#cover {
-  margin-top: 0px; }
+#cover h1 {
+  margin-top: 100px; }
 
 #howto {
   margin-top: 1024px; }

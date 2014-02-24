@@ -481,11 +481,9 @@ body {
   width: 768px;
   height: 1024px;
   background-color: white;
-  /*   border-bottom: 2px solid $page-divider;  */ }
+  border-bottom: 10px solid #ebebeb; }
 
-.page:nth-child(odd) {
-  border: 10px solid #ebebeb; }
-
+/* .page:nth-child(odd) {border-bottom: 10px solid $page-color-dark;} */
 .jumpto {
   bottom: 25px;
   right: 25px;
@@ -629,8 +627,8 @@ h3 {
   background: #ffc400;
   z-index: 200; }
 
-#cover {
-  margin-top: 0px; }
+#cover h1 {
+  margin-top: 100px; }
 
 #howto {
   margin-top: 1024px; }
@@ -685,64 +683,64 @@ h3 {
 #cover {
   -skrollr-animation-name: one-scroll; }
   #cover h1, #cover h2, #cover h3 {
-    -skrollr-animation-name: one-bottom-to-top; }
+    -skrollr-animation-name: one-title-transform; }
 
 #howto {
   -skrollr-animation-name: two-scroll; }
   #howto h1, #howto h2, #howto h3 {
-    -skrollr-animation-name: two-bottom-to-top; }
+    -skrollr-animation-name: two-title-transform; }
 
 #empty {
   -skrollr-animation-name: three-scroll; }
   #empty h1, #empty h2, #empty h3 {
-    -skrollr-animation-name: three-bottom-to-top; }
+    -skrollr-animation-name: three-title-transform; }
 
 #mother {
   -skrollr-animation-name: four-scroll; }
   #mother h1, #mother h2, #mother h3 {
-    -skrollr-animation-name: four-bottom-to-top; }
+    -skrollr-animation-name: four-title-transform; }
 
 #queen {
   -skrollr-animation-name: five-scroll; }
   #queen h1, #queen h2, #queen h3 {
-    -skrollr-animation-name: five-bottom-to-top; }
+    -skrollr-animation-name: five-title-transform; }
 
 #hunstman {
   -skrollr-animation-name: six-scroll; }
   #hunstman h1, #hunstman h2, #hunstman h3 {
-    -skrollr-animation-name: six-bottom-to-top; }
+    -skrollr-animation-name: six-title-transform; }
 
 #dwarves {
   -skrollr-animation-name: seven-scroll; }
   #dwarves h1, #dwarves h2, #dwarves h3 {
-    -skrollr-animation-name: seven-bottom-to-top; }
+    -skrollr-animation-name: seven-title-transform; }
 
 #king {
   -skrollr-animation-name: eight-scroll; }
   #king h1, #king h2, #king h3 {
-    -skrollr-animation-name: eight-bottom-to-top; }
+    -skrollr-animation-name: eight-title-transform; }
 
 #sin {
   -skrollr-animation-name: nine-scroll; }
   #sin h1, #sin h2, #sin h3 {
-    -skrollr-animation-name: nine-bottom-to-top; }
+    -skrollr-animation-name: nine-title-transform; }
 
 #prince {
   -skrollr-animation-name: ten-scroll; }
   #prince h1, #prince h2, #prince h3 {
-    -skrollr-animation-name: ten-bottom-to-top; }
+    -skrollr-animation-name: ten-title-transform; }
 
 #love {
   -skrollr-animation-name: eleven-scroll; }
   #love h1, #love h2, #love h3 {
-    -skrollr-animation-name: eleven-bottom-to-top; }
+    -skrollr-animation-name: eleven-title-transform; }
 
 #end {
   -skrollr-animation-name: last-scroll; }
   #end h1, #end h2, #end h3 {
-    -skrollr-animation-name: last-bottom-to-top; }
+    -skrollr-animation-name: last-title-transform; }
 
-@-skrollr-keyframes last-bottom-to-top {
+@-skrollr-keyframes last-title-transform {
   21164 {
     color: black;
     margin-top: 500px; }
@@ -751,7 +749,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes eleven-bottom-to-top {
+@-skrollr-keyframes eleven-title-transform {
   19240 {
     color: black;
     margin-top: 500px; }
@@ -760,7 +758,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes ten-bottom-to-top {
+@-skrollr-keyframes ten-title-transform {
   17316 {
     color: black;
     margin-top: 500px; }
@@ -769,7 +767,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes nine-bottom-to-top {
+@-skrollr-keyframes nine-title-transform {
   15392 {
     color: black;
     margin-top: 500px; }
@@ -778,7 +776,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes eight-bottom-to-top {
+@-skrollr-keyframes eight-title-transform {
   13468 {
     color: black;
     margin-top: 500px; }
@@ -787,7 +785,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes seven-bottom-to-top {
+@-skrollr-keyframes seven-title-transform {
   11544 {
     color: black;
     margin-top: 500px; }
@@ -796,7 +794,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes six-bottom-to-top {
+@-skrollr-keyframes six-title-transform {
   9620 {
     color: black;
     margin-top: 500px; }
@@ -805,7 +803,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes five-bottom-to-top {
+@-skrollr-keyframes five-title-transform {
   7696 {
     color: black;
     margin-top: 500px; }
@@ -814,7 +812,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes four-bottom-to-top {
+@-skrollr-keyframes four-title-transform {
   5772 {
     color: black;
     margin-top: 500px; }
@@ -823,7 +821,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes three-bottom-to-top {
+@-skrollr-keyframes three-title-transform {
   3848 {
     color: black;
     margin-top: 500px; }
@@ -832,7 +830,7 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes two-bottom-to-top {
+@-skrollr-keyframes two-title-transform {
   1924 {
     color: black;
     margin-top: 500px; }
@@ -841,14 +839,12 @@ h3 {
     color: red;
     margin-top: 100px; } }
 
-@-skrollr-keyframes one-bottom-to-top {
-  0 {
-    color: black;
-    margin-top: 500px; }
+@-skrollr-keyframes one-title-transform {
+  900 {
+    margin-top: 100px; }
 
   900 {
-    color: red;
-    margin-top: 100px; } }
+    margin-top: 0px; } }
 
 @-skrollr-keyframes last-scroll {
   20140 {

@@ -86,123 +86,123 @@ $last_scrollstart:      $last_onscreen + 900;
     
 #cover {
   -skrollr-animation-name:one-scroll; 
-  h1, h2, h3 {-skrollr-animation-name:one-bottom-to-top;}    
+  h1, h2, h3 {-skrollr-animation-name:one-title-transform;}    
   }    
 
 #howto {
   -skrollr-animation-name:two-scroll;
-  h1, h2, h3 {-skrollr-animation-name:two-bottom-to-top;}   
+  h1, h2, h3 {-skrollr-animation-name:two-title-transform;}   
   }  
   
 #empty {
   -skrollr-animation-name:three-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:three-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:three-title-transform;} 
   }
   
 #mother {
   -skrollr-animation-name:four-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:four-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:four-title-transform;} 
   }
   
 #queen {
   -skrollr-animation-name:five-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:five-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:five-title-transform;} 
   } 
   
 #hunstman {
   -skrollr-animation-name:six-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:six-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:six-title-transform;} 
   } 
   
 #dwarves {
   -skrollr-animation-name:seven-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:seven-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:seven-title-transform;} 
   } 
   
 #king {
   -skrollr-animation-name:eight-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:eight-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:eight-title-transform;} 
   } 
   
 #sin {
   -skrollr-animation-name:nine-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:nine-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:nine-title-transform;} 
   } 
   
 #prince {
   -skrollr-animation-name:ten-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:ten-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:ten-title-transform;} 
   }
   
 #love {
   -skrollr-animation-name:eleven-scroll;  
-  h1, h2, h3 {-skrollr-animation-name:eleven-bottom-to-top;} 
+  h1, h2, h3 {-skrollr-animation-name:eleven-title-transform;} 
   }  
 
 #end {  
   -skrollr-animation-name:last-scroll; 
-  h1, h2, h3 {-skrollr-animation-name:last-bottom-to-top;}  
+  h1, h2, h3 {-skrollr-animation-name:last-title-transform;}  
   }
   
   
-@-skrollr-keyframes last-bottom-to-top {    
+@-skrollr-keyframes last-title-transform {    
   #{$last_onscreen} { color: rgba(0,0,0,1); margin-top:500px;}
   #{$last_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes eleven-bottom-to-top {  
+@-skrollr-keyframes eleven-title-transform {  
   #{$eleven_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
   #{$eleven_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes ten-bottom-to-top {  
+@-skrollr-keyframes ten-title-transform {  
   #{$ten_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
   #{$ten_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes nine-bottom-to-top {  
+@-skrollr-keyframes nine-title-transform {  
   #{$nine_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
   #{$nine_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes eight-bottom-to-top {  
+@-skrollr-keyframes eight-title-transform {  
   #{$eight_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
   #{$eight_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes seven-bottom-to-top {  
+@-skrollr-keyframes seven-title-transform {  
   #{$seven_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
   #{$seven_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes six-bottom-to-top {  
+@-skrollr-keyframes six-title-transform {  
   #{$six_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
   #{$six_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes five-bottom-to-top {  
+@-skrollr-keyframes five-title-transform {  
   #{$five_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
   #{$five_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes four-bottom-to-top {  
+@-skrollr-keyframes four-title-transform {  
   #{$four_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
   #{$four_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes three-bottom-to-top {  
+@-skrollr-keyframes three-title-transform {  
   #{$three_onscreen} {color: rgba(0,0,0,1); margin-top:500px;}
   #{$three_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes two-bottom-to-top {   
+@-skrollr-keyframes two-title-transform {   
   #{$two_onscreen} { color: rgba(0,0,0,1); margin-top:500px;}
   #{$two_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;}
   }
   
-@-skrollr-keyframes one-bottom-to-top { 
-  #{$one_onscreen} { color: rgba(0,0,0,1); margin-top:500px;}
-  #{$one_scrollstart} { color: rgba(255,0,0,1); margin-top:100px;} 
+@-skrollr-keyframes one-title-transform { 
+  #{$one_scrollstart} {margin-top:100px;} 
+  #{$one_scrollstart} {margin-top:0px;} 
   }
   
 @-skrollr-keyframes last-scroll {    
