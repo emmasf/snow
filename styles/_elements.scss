@@ -60,15 +60,14 @@ body {
   color: $blue;
   }
   
-  #story-button a { 
+a#story-button  { 
   font-size: 24px;
   padding: 10px 15px;
   color: $blue;
   background: rgba(200,200,200,0.25);
-  cursor: pointer;
   }
   
-#story-button a:active, #story-button a:hover, #story-button a:press, #story-button a:focus {
+a#story-button:active, a#story-button:hover, a#story-button:press, a#story-button:focus {
   color: #fff;
   background: $blue;
   }
