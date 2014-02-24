@@ -537,10 +537,15 @@ a#story-button:active, a#story-button:hover, a#story-button:press, a#story-butto
   .jumpto a {
     padding: 10px; }
 
-.cutout {
-  top: 0px; }
-  .cutout img {
-    width: 100%; }
+.cutout img {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.drawing {
+  position: absolute;
+  top: 100px;
+  left: 300px; }
 
 .back {
   z-index: 1 !important; }
