@@ -58,7 +58,14 @@ body {
   top: 25px; 
   left: 700px;  
   font-size: 24px;
-  background-color: $blue;
+  padding: 10px 20px;
+  color: $blue;
+  background: rgba(200,200,200,0.75);
+  }
+  
+#story-button:active, #story-button:hover, #story-button:press, #story-button:focus {
+  color: #fff;
+  background: $blue;
   }
 
 	

@@ -516,7 +516,13 @@ body {
   top: 25px;
   left: 700px;
   font-size: 24px;
-  background-color: #2494d1; }
+  padding: 10px 20px;
+  color: #2494d1;
+  background: rgba(200, 200, 200, 0.75); }
+
+#story-button:active, #story-button:hover, #story-button:press, #story-button:focus {
+  color: #fff;
+  background: #2494d1; }
 
 .jumpto {
   bottom: 25px;
